@@ -28,6 +28,7 @@ import argparse
 import sys
 import numpy as np
 import random
+import argparse
 
 from tensorflow.examples.tutorials.mnist import input_data
 
@@ -50,15 +51,35 @@ def max_pool_2x2(x):
   return tf.nn.max_pool(x, ksize=[1, 2, 2, 1],
                         strides=[1, 2, 2, 1], padding='SAME')
 
+out_file
 
-# out_file = None
+def outp(s):
+  print(s)
+  if out_file:
+    print >>out_file, s
+    file.flush(out_file)
+
 
 def main(_):
 
 
-  # parser = argparse.ArgumentParser('Run MNIST drop_grads experiment.')
-  # parser.add_argument('-f', '--out_file', help='File to log results to.')
+  parser = argparse.ArgumentParser('Run MNIST drop_grads experiment.')
+  parser.add_argument('-f', '--out_file', default='results.txt'
+      help='File to append results to.')
+  parser.add_argument('-p', '--drop_grads_prob', type=float, default=0.5,
+      help='Probability of dropping grads for each variable in each training batch.')
+  parser.add_argument('-b', '--batches', type=int, default=2000,
+      help='Number of batches of size 50 to train.')
+  args = parser.parse_args()
 
+  drop_grads_prob = args.drop_grads_prob
+  print("drop_grads_prob = %d"%drop_grads_prob)
+
+
+  out_file = open(args.out_file, 'a')
+  print >>out_file, ""
+  print >>out_file, "Command:"
+  print >>out_file, str(' '.join(sys.argv))
 
   # Import data
   mnist = input_data.read_data_sets(FLAGS.data_dir, one_hot=True)
@@ -90,8 +111,6 @@ def main(_):
   b_fc2 = bias_variable([10])
   y_conv = tf.matmul(h_fc1_drop, W_fc2) + b_fc2
 
-
-  # Define loss and optimizer
   y_ = tf.placeholder(tf.float32, [None, 10])
 
   # The raw formulation of cross-entropy,
@@ -105,7 +124,9 @@ def main(_):
   # outputs of 'y', and then average across the batch.
   cross_entropy_loss = tf.reduce_mean(
       tf.nn.softmax_cross_entropy_with_logits(labels=y_, logits=y_conv))
-  # TODO: get the grads here and try discarding some of them randomly.
+
+  # Variables to calculate the gradients seprately before applying them.
+
   tvars = tf.trainable_variables()
   var_grad_holders = []
   for idx,var in enumerate(tvars):
@@ -125,29 +146,26 @@ def main(_):
   sess = tf.InteractiveSession()
   tf.global_variables_initializer().run()
 
-  batches = 2000 # 20000
-  drop_grads_prob = 0.5
-  print("drop_grads_prob = %d"%drop_grads_prob)
-  for i in range(batches+1):
+  for i in range(args.batches+1):
     batch = mnist.train.next_batch(50)
     if i%100 == 0:
       train_accuracy = run_accuracy.eval(feed_dict={
           x:batch[0], y_: batch[1], keep_prob: 1.0})
       test_accuracy = run_accuracy.eval(feed_dict={
           x: mnist.test.images, y_: mnist.test.labels, keep_prob: 1.0})
-      print("step %d, training accuracy %g, test accuracy %g"%(i, train_accuracy, test_accuracy))
+      outp("step %d, training accuracy %g, test accuracy %g"%(i, train_accuracy, test_accuracy))
 
     grads = sess.run(run_calc_grads, feed_dict={x: batch[0], y_: batch[1], keep_prob: 0.5})
     grad_dict = dict(zip(var_grad_holders, grads))
 
+    # Zero out the gradients computed from this training batch
+    # for some variables randomly chosen.
     for var in var_grad_holders:
-      # print("BEFORE grad_dict[%s] = %s"%(str(var), str(grad_dict[var])))
       if (random.random() < drop_grads_prob):
         grad_dict[var] = np.zeros(grad_dict[var].shape)
-      # print("AFTER grad_dict[%s] = %s"%(str(var), str(grad_dict[var])))
     run_update_grads.run(feed_dict=grad_dict)
 
-  print("test accuracy %g"%run_accuracy.eval(feed_dict={
+  outp("test accuracy %g"%run_accuracy.eval(feed_dict={
       x: mnist.test.images, y_: mnist.test.labels, keep_prob: 1.0}))
 
 if __name__ == '__main__':
