@@ -94,12 +94,24 @@ def main(_):
   #
   # So here we use tf.nn.softmax_cross_entropy_with_logits on the raw
   # outputs of 'y', and then average across the batch.
-  cross_entropy = tf.reduce_mean(
+  cross_entropy_loss = tf.reduce_mean(
       tf.nn.softmax_cross_entropy_with_logits(labels=y_, logits=y_conv))
   # TODO: get the grads here and try discarding some of them randomly.
-  train_step = tf.train.AdamOptimizer(1e-4).minimize(cross_entropy)
+  tvars = tf.trainable_variables()
+  grad_holders = []
+  for idx,var in enumerate(tvars):
+    placeholder = tf.placeholder(tf.float32,name=str(idx)+'_holder')
+    grad_holders.append(placeholder)
+  # Run this to get the gradients that should be applied given some training data.
+  run_calc_grads = tf.gradients(cross_entropy_loss, tvars)
+
+  adam = tf.train.AdamOptimizer(1e-4)
+  # To apply gradients, run this with a feed_dict that populates grad_holders
+  # (probably getting gradients from run_calc_grads)
+  run_update_grads = adam.apply_gradients(zip(grad_holders, tvars))
+
   correct_prediction = tf.equal(tf.argmax(y_conv, 1), tf.argmax(y_, 1))
-  accuracy = tf.reduce_mean(tf.cast(correct_prediction, tf.float32))
+  run_accuracy = tf.reduce_mean(tf.cast(correct_prediction, tf.float32))
 
   sess = tf.InteractiveSession()
   tf.global_variables_initializer().run()
@@ -110,15 +122,20 @@ def main(_):
 
   # print(sess.run(accuracy, feed_dict={x: mnist.test.images,
   #                                     y_: mnist.test.labels}))
-  for i in range(20000):
+  batches = 2000 # 20000
+  for i in range(batches):
     batch = mnist.train.next_batch(50)
     if i%100 == 0:
-      train_accuracy = accuracy.eval(feed_dict={
+      train_accuracy = run_accuracy.eval(feed_dict={
           x:batch[0], y_: batch[1], keep_prob: 1.0})
       print("step %d, training accuracy %g"%(i, train_accuracy))
-    train_step.run(feed_dict={x: batch[0], y_: batch[1], keep_prob: 0.5})
 
-  print("test accuracy %g"%accuracy.eval(feed_dict={
+    grads = sess.run(run_calc_grads, feed_dict={x: batch[0], y_: batch[1], keep_prob: 0.5})
+    # grads = run_calc_grads.run(feed_dict={x: batch[0], y_: batch[1], keep_prob: 0.5})
+    grad_dict = dict(zip(grad_holders, grads))
+    run_update_grads.run(feed_dict=grad_dict)
+
+  print("test accuracy %g"%run_accuracy.eval(feed_dict={
       x: mnist.test.images, y_: mnist.test.labels, keep_prob: 1.0}))
 
 if __name__ == '__main__':
