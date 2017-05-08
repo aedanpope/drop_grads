@@ -132,6 +132,7 @@ def main(_):
 
     grads = sess.run(run_calc_grads, feed_dict={x: batch[0], y_: batch[1], keep_prob: 0.5})
     # grads = run_calc_grads.run(feed_dict={x: batch[0], y_: batch[1], keep_prob: 0.5})
+    print "grads = " + str(grads)
     grad_dict = dict(zip(grad_holders, grads))
     run_update_grads.run(feed_dict=grad_dict)
 
