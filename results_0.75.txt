@@ -1,0 +1,2 @@
+
+Command: mnist_softmax_dg.py --drop_grads_prob=0.75 --out_file=results_0.75.txt --batches=20000
