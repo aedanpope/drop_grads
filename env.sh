@@ -1,0 +1,1 @@
+source ~/tensorflow_cpu/bin/activate
