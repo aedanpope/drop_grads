@@ -1,0 +1,13 @@
+Extracting /tmp/tensorflow/mnist/input_data/train-images-idx3-ubyte.gz
+Extracting /tmp/tensorflow/mnist/input_data/train-labels-idx1-ubyte.gz
+Extracting /tmp/tensorflow/mnist/input_data/t10k-images-idx3-ubyte.gz
+Extracting /tmp/tensorflow/mnist/input_data/t10k-labels-idx1-ubyte.gz
+drop_grads_prob = 0
+step 0, training accuracy 0.12, test accuracy 0.101
+step 100, training accuracy 0.66, test accuracy 0.7661
+step 200, training accuracy 0.8, test accuracy 0.8711
+step 300, training accuracy 0.96, test accuracy 0.9058
+step 400, training accuracy 0.94, test accuracy 0.9228
+step 500, training accuracy 0.94, test accuracy 0.9332
+step 600, training accuracy 0.96, test accuracy 0.936
+step 700, training accuracy 0.92, test accuracy 0.9408

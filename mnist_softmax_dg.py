@@ -26,6 +26,8 @@ from __future__ import print_function
 
 import argparse
 import sys
+import numpy as np
+import random
 
 from tensorflow.examples.tutorials.mnist import input_data
 
@@ -49,8 +51,15 @@ def max_pool_2x2(x):
                         strides=[1, 2, 2, 1], padding='SAME')
 
 
+# out_file = None
 
 def main(_):
+
+
+  # parser = argparse.ArgumentParser('Run MNIST drop_grads experiment.')
+  # parser.add_argument('-f', '--out_file', help='File to log results to.')
+
+
   # Import data
   mnist = input_data.read_data_sets(FLAGS.data_dir, one_hot=True)
 
@@ -98,42 +107,44 @@ def main(_):
       tf.nn.softmax_cross_entropy_with_logits(labels=y_, logits=y_conv))
   # TODO: get the grads here and try discarding some of them randomly.
   tvars = tf.trainable_variables()
-  grad_holders = []
+  var_grad_holders = []
   for idx,var in enumerate(tvars):
     placeholder = tf.placeholder(tf.float32,name=str(idx)+'_holder')
-    grad_holders.append(placeholder)
+    var_grad_holders.append(placeholder)
   # Run this to get the gradients that should be applied given some training data.
   run_calc_grads = tf.gradients(cross_entropy_loss, tvars)
 
   adam = tf.train.AdamOptimizer(1e-4)
-  # To apply gradients, run this with a feed_dict that populates grad_holders
+  # To apply gradients, run this with a feed_dict that populates var_grad_holders
   # (probably getting gradients from run_calc_grads)
-  run_update_grads = adam.apply_gradients(zip(grad_holders, tvars))
+  run_update_grads = adam.apply_gradients(zip(var_grad_holders, tvars))
 
   correct_prediction = tf.equal(tf.argmax(y_conv, 1), tf.argmax(y_, 1))
   run_accuracy = tf.reduce_mean(tf.cast(correct_prediction, tf.float32))
 
   sess = tf.InteractiveSession()
   tf.global_variables_initializer().run()
-  # # Train
-  # for _ in range(1000):
-  #   batch_xs, batch_ys = mnist.train.next_batch(100)
-  #   sess.run(train_step, feed_dict={x: batch_xs, y_: batch_ys})
 
-  # print(sess.run(accuracy, feed_dict={x: mnist.test.images,
-  #                                     y_: mnist.test.labels}))
   batches = 2000 # 20000
-  for i in range(batches):
+  drop_grads_prob = 0.5
+  print("drop_grads_prob = %d"%drop_grads_prob)
+  for i in range(batches+1):
     batch = mnist.train.next_batch(50)
     if i%100 == 0:
       train_accuracy = run_accuracy.eval(feed_dict={
           x:batch[0], y_: batch[1], keep_prob: 1.0})
-      print("step %d, training accuracy %g"%(i, train_accuracy))
+      test_accuracy = run_accuracy.eval(feed_dict={
+          x: mnist.test.images, y_: mnist.test.labels, keep_prob: 1.0})
+      print("step %d, training accuracy %g, test accuracy %g"%(i, train_accuracy, test_accuracy))
 
     grads = sess.run(run_calc_grads, feed_dict={x: batch[0], y_: batch[1], keep_prob: 0.5})
-    # grads = run_calc_grads.run(feed_dict={x: batch[0], y_: batch[1], keep_prob: 0.5})
-    print "grads = " + str(grads)
-    grad_dict = dict(zip(grad_holders, grads))
+    grad_dict = dict(zip(var_grad_holders, grads))
+
+    for var in var_grad_holders:
+      # print("BEFORE grad_dict[%s] = %s"%(str(var), str(grad_dict[var])))
+      if (random.random() < drop_grads_prob):
+        grad_dict[var] = np.zeros(grad_dict[var].shape)
+      # print("AFTER grad_dict[%s] = %s"%(str(var), str(grad_dict[var])))
     run_update_grads.run(feed_dict=grad_dict)
 
   print("test accuracy %g"%run_accuracy.eval(feed_dict={
