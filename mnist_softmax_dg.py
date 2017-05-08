@@ -51,12 +51,12 @@ def max_pool_2x2(x):
   return tf.nn.max_pool(x, ksize=[1, 2, 2, 1],
                         strides=[1, 2, 2, 1], padding='SAME')
 
-out_file
+out_file = None
 
 def outp(s):
   print(s)
   if out_file:
-    print >>out_file, s
+    out_file.write(s + "\n")
     file.flush(out_file)
 
 
@@ -64,7 +64,7 @@ def main(_):
 
 
   parser = argparse.ArgumentParser('Run MNIST drop_grads experiment.')
-  parser.add_argument('-f', '--out_file', default='results.txt'
+  parser.add_argument('-f', '--out_file', default='results.txt',
       help='File to append results to.')
   parser.add_argument('-p', '--drop_grads_prob', type=float, default=0.5,
       help='Probability of dropping grads for each variable in each training batch.')
@@ -75,11 +75,10 @@ def main(_):
   drop_grads_prob = args.drop_grads_prob
   print("drop_grads_prob = %d"%drop_grads_prob)
 
-
+  global out_file
   out_file = open(args.out_file, 'a')
-  print >>out_file, ""
-  print >>out_file, "Command:"
-  print >>out_file, str(' '.join(sys.argv))
+  outp("")
+  outp("Command: %s" % str(' '.join(sys.argv)))
 
   # Import data
   mnist = input_data.read_data_sets(FLAGS.data_dir, one_hot=True)
