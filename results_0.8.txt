@@ -406,3 +406,5 @@ step 19800, training accuracy 1, test accuracy 0.9884
 step 19900, training accuracy 1, test accuracy 0.9894
 step 20000, training accuracy 0.98, test accuracy 0.9897
 test accuracy 0.9898
+
+Command: mnist_softmax_dg.py --drop_grads_prob=0.8 --out_file=results_0.8.txt --batches=20000

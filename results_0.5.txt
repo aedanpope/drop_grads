@@ -1076,3 +1076,10 @@ step 17800, training accuracy 1, test accuracy 0.991
 step 17900, training accuracy 1, test accuracy 0.9906
 step 18000, training accuracy 1, test accuracy 0.991
 step 18100, training accuracy 1, test accuracy 0.9903
+step 18200, training accuracy 1, test accuracy 0.991
+step 18300, training accuracy 1, test accuracy 0.9915
+step 18400, training accuracy 0.98, test accuracy 0.9912
+step 18500, training accuracy 1, test accuracy 0.9906
+step 18600, training accuracy 1, test accuracy 0.9899
+step 18700, training accuracy 1, test accuracy 0.9908
+step 18800, training accuracy 1, test accuracy 0.9905
