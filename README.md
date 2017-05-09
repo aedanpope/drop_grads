@@ -2,7 +2,7 @@
 
 ## Overview
 
-Consider executing BackProp on a large computation graph in a distributed architecture, where a single back-propagation through the computational graph takes place over multiple machines. Suppose access to individual machines is unreliable, and may be revoked at any time. How can we make meaningful training progress in such an environment?
+Consider executing BackProp on a large computation graph in a distributed architecture, where a single back-propagation through the computational graph takes place over multiple machines (somewhat akin to a MapReduce). Suppose access to individual machines is unreliable, and may be revoked at any time. How can we make meaningful training progress in such an environment?
 
 We experiment with dropping the gradients for random variables from the computational graph in the execution of each instance of backpropagation, and show that effective learning is still possible by naively just training with the subset of gradients that are still available.
 
