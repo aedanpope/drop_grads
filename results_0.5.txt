@@ -2,1084 +2,1084 @@
 Command: mnist_softmax_dg.py --drop_grads_prob=0.5 --out_file=results_0.5.txt --batches=20000
 
 Command: mnist_softmax_dg.py --drop_grads_prob=0.5 --out_file=results_0.5.txt --batches=20000
-step 0, training accuracy 0.08, test accuracy 0.1005
-step 100, training accuracy 0.8, test accuracy 0.8008
-step 200, training accuracy 0.88, test accuracy 0.8796
-step 300, training accuracy 0.86, test accuracy 0.9129
-step 400, training accuracy 0.84, test accuracy 0.9229
-step 500, training accuracy 0.9, test accuracy 0.9362
-step 600, training accuracy 0.88, test accuracy 0.9371
-step 700, training accuracy 0.94, test accuracy 0.9402
-step 800, training accuracy 0.92, test accuracy 0.943
-step 900, training accuracy 0.94, test accuracy 0.9527
-step 1000, training accuracy 0.98, test accuracy 0.9502
-step 1100, training accuracy 1, test accuracy 0.9597
-step 1200, training accuracy 0.98, test accuracy 0.9607
-step 1300, training accuracy 0.92, test accuracy 0.9598
-step 1400, training accuracy 0.9, test accuracy 0.964
-step 1500, training accuracy 0.94, test accuracy 0.963
-step 1600, training accuracy 0.88, test accuracy 0.965
-step 1700, training accuracy 0.96, test accuracy 0.9683
-step 1800, training accuracy 0.96, test accuracy 0.9663
-step 1900, training accuracy 0.98, test accuracy 0.9656
-step 2000, training accuracy 0.96, test accuracy 0.9696
-step 2100, training accuracy 1, test accuracy 0.9688
-step 2200, training accuracy 0.96, test accuracy 0.9693
-step 2300, training accuracy 0.98, test accuracy 0.974
-step 2400, training accuracy 1, test accuracy 0.9706
-step 2500, training accuracy 0.96, test accuracy 0.9719
-step 2600, training accuracy 0.96, test accuracy 0.9733
-step 2700, training accuracy 1, test accuracy 0.9743
-step 2800, training accuracy 0.98, test accuracy 0.9729
-step 2900, training accuracy 0.96, test accuracy 0.9732
-step 3000, training accuracy 0.98, test accuracy 0.9762
-step 3100, training accuracy 0.94, test accuracy 0.975
-step 3200, training accuracy 0.98, test accuracy 0.9783
-step 3300, training accuracy 0.96, test accuracy 0.978
-step 3400, training accuracy 0.96, test accuracy 0.9775
-step 3500, training accuracy 0.98, test accuracy 0.98
-step 3600, training accuracy 1, test accuracy 0.9779
-step 3700, training accuracy 0.98, test accuracy 0.9785
-step 3800, training accuracy 1, test accuracy 0.9809
-step 3900, training accuracy 0.94, test accuracy 0.9795
-step 4000, training accuracy 0.96, test accuracy 0.9808
-step 4100, training accuracy 0.96, test accuracy 0.979
-step 4200, training accuracy 1, test accuracy 0.9805
-step 4300, training accuracy 0.98, test accuracy 0.9813
-step 4400, training accuracy 0.98, test accuracy 0.9805
-step 4500, training accuracy 1, test accuracy 0.9835
-step 4600, training accuracy 0.98, test accuracy 0.983
-step 4700, training accuracy 0.96, test accuracy 0.9826
-step 4800, training accuracy 0.94, test accuracy 0.9826
-step 4900, training accuracy 1, test accuracy 0.9823
-step 5000, training accuracy 0.98, test accuracy 0.9841
-step 5100, training accuracy 0.98, test accuracy 0.9841
-step 5200, training accuracy 0.98, test accuracy 0.9806
-step 5300, training accuracy 1, test accuracy 0.9828
-step 5400, training accuracy 0.98, test accuracy 0.9812
-step 5500, training accuracy 0.96, test accuracy 0.9836
-step 5600, training accuracy 1, test accuracy 0.9845
-step 5700, training accuracy 0.96, test accuracy 0.9838
-step 5800, training accuracy 0.98, test accuracy 0.983
-step 5900, training accuracy 1, test accuracy 0.9833
-step 6000, training accuracy 1, test accuracy 0.9825
-step 6100, training accuracy 1, test accuracy 0.9843
-step 6200, training accuracy 1, test accuracy 0.9841
-step 6300, training accuracy 0.98, test accuracy 0.9865
-step 6400, training accuracy 0.98, test accuracy 0.9862
-step 6500, training accuracy 0.94, test accuracy 0.9854
-step 6600, training accuracy 0.96, test accuracy 0.9848
-step 6700, training accuracy 1, test accuracy 0.9854
-step 6800, training accuracy 1, test accuracy 0.9842
-step 6900, training accuracy 0.98, test accuracy 0.9879
-step 7000, training accuracy 0.98, test accuracy 0.9856
-step 7100, training accuracy 1, test accuracy 0.9859
-step 7200, training accuracy 1, test accuracy 0.9868
-step 7300, training accuracy 0.98, test accuracy 0.9856
-step 7400, training accuracy 1, test accuracy 0.987
+step 0 training  0.08 test  0.1005
+step 100 training  0.8 test  0.8008
+step 200 training  0.88 test  0.8796
+step 300 training  0.86 test  0.9129
+step 400 training  0.84 test  0.9229
+step 500 training  0.9 test  0.9362
+step 600 training  0.88 test  0.9371
+step 700 training  0.94 test  0.9402
+step 800 training  0.92 test  0.943
+step 900 training  0.94 test  0.9527
+step 1000 training  0.98 test  0.9502
+step 1100 training  1 test  0.9597
+step 1200 training  0.98 test  0.9607
+step 1300 training  0.92 test  0.9598
+step 1400 training  0.9 test  0.964
+step 1500 training  0.94 test  0.963
+step 1600 training  0.88 test  0.965
+step 1700 training  0.96 test  0.9683
+step 1800 training  0.96 test  0.9663
+step 1900 training  0.98 test  0.9656
+step 2000 training  0.96 test  0.9696
+step 2100 training  1 test  0.9688
+step 2200 training  0.96 test  0.9693
+step 2300 training  0.98 test  0.974
+step 2400 training  1 test  0.9706
+step 2500 training  0.96 test  0.9719
+step 2600 training  0.96 test  0.9733
+step 2700 training  1 test  0.9743
+step 2800 training  0.98 test  0.9729
+step 2900 training  0.96 test  0.9732
+step 3000 training  0.98 test  0.9762
+step 3100 training  0.94 test  0.975
+step 3200 training  0.98 test  0.9783
+step 3300 training  0.96 test  0.978
+step 3400 training  0.96 test  0.9775
+step 3500 training  0.98 test  0.98
+step 3600 training  1 test  0.9779
+step 3700 training  0.98 test  0.9785
+step 3800 training  1 test  0.9809
+step 3900 training  0.94 test  0.9795
+step 4000 training  0.96 test  0.9808
+step 4100 training  0.96 test  0.979
+step 4200 training  1 test  0.9805
+step 4300 training  0.98 test  0.9813
+step 4400 training  0.98 test  0.9805
+step 4500 training  1 test  0.9835
+step 4600 training  0.98 test  0.983
+step 4700 training  0.96 test  0.9826
+step 4800 training  0.94 test  0.9826
+step 4900 training  1 test  0.9823
+step 5000 training  0.98 test  0.9841
+step 5100 training  0.98 test  0.9841
+step 5200 training  0.98 test  0.9806
+step 5300 training  1 test  0.9828
+step 5400 training  0.98 test  0.9812
+step 5500 training  0.96 test  0.9836
+step 5600 training  1 test  0.9845
+step 5700 training  0.96 test  0.9838
+step 5800 training  0.98 test  0.983
+step 5900 training  1 test  0.9833
+step 6000 training  1 test  0.9825
+step 6100 training  1 test  0.9843
+step 6200 training  1 test  0.9841
+step 6300 training  0.98 test  0.9865
+step 6400 training  0.98 test  0.9862
+step 6500 training  0.94 test  0.9854
+step 6600 training  0.96 test  0.9848
+step 6700 training  1 test  0.9854
+step 6800 training  1 test  0.9842
+step 6900 training  0.98 test  0.9879
+step 7000 training  0.98 test  0.9856
+step 7100 training  1 test  0.9859
+step 7200 training  1 test  0.9868
+step 7300 training  0.98 test  0.9856
+step 7400 training  1 test  0.987
 
 Command: mnist_softmax_dg.py --drop_grads_prob=0.5 --out_file=results_0.5.txt --batches=20000
-step 0, training accuracy 0.04, test accuracy 0.1113
+step 0 training  0.04 test  0.1113
 
 Command: mnist_softmax_dg.py --drop_grads_prob=0.5 --out_file=results_0.5.txt --batches=20000
-step 0, training accuracy 0.12, test accuracy 0.1135
-step 100, training accuracy 0.86, test accuracy 0.7834
-step 200, training accuracy 0.78, test accuracy 0.881
-step 300, training accuracy 0.92, test accuracy 0.9044
-step 400, training accuracy 0.9, test accuracy 0.9254
-step 500, training accuracy 0.96, test accuracy 0.9313
-step 600, training accuracy 0.98, test accuracy 0.9405
-step 700, training accuracy 0.98, test accuracy 0.942
-step 800, training accuracy 0.96, test accuracy 0.9443
-step 900, training accuracy 0.98, test accuracy 0.9482
-step 1000, training accuracy 0.92, test accuracy 0.9535
-step 1100, training accuracy 0.98, test accuracy 0.9571
-step 1200, training accuracy 0.98, test accuracy 0.9591
-step 1300, training accuracy 0.98, test accuracy 0.9598
-step 1400, training accuracy 0.96, test accuracy 0.9635
-step 1500, training accuracy 0.98, test accuracy 0.9615
-step 1600, training accuracy 0.98, test accuracy 0.9652
-step 1700, training accuracy 0.98, test accuracy 0.9682
-step 1800, training accuracy 0.96, test accuracy 0.9686
-step 1900, training accuracy 1, test accuracy 0.9707
-step 2000, training accuracy 1, test accuracy 0.9714
-step 2100, training accuracy 0.92, test accuracy 0.9703
-step 2200, training accuracy 0.94, test accuracy 0.9715
-step 2300, training accuracy 1, test accuracy 0.9697
-step 2400, training accuracy 0.94, test accuracy 0.9716
-step 2500, training accuracy 0.96, test accuracy 0.9734
-step 2600, training accuracy 1, test accuracy 0.9721
-step 2700, training accuracy 0.98, test accuracy 0.9749
-step 2800, training accuracy 0.98, test accuracy 0.9747
-step 2900, training accuracy 0.98, test accuracy 0.9754
-step 3000, training accuracy 0.98, test accuracy 0.9743
-step 3100, training accuracy 0.98, test accuracy 0.9781
-step 3200, training accuracy 1, test accuracy 0.9776
-step 3300, training accuracy 0.94, test accuracy 0.978
-step 3400, training accuracy 0.96, test accuracy 0.9796
-step 3500, training accuracy 0.96, test accuracy 0.9791
-step 3600, training accuracy 1, test accuracy 0.9793
-step 3700, training accuracy 1, test accuracy 0.9776
-step 3800, training accuracy 1, test accuracy 0.9796
-step 3900, training accuracy 0.98, test accuracy 0.9803
-step 4000, training accuracy 0.94, test accuracy 0.9812
-step 4100, training accuracy 0.96, test accuracy 0.981
-step 4200, training accuracy 0.98, test accuracy 0.9802
-step 4300, training accuracy 0.94, test accuracy 0.9783
-step 4400, training accuracy 1, test accuracy 0.9824
-step 4500, training accuracy 0.98, test accuracy 0.9801
-step 4600, training accuracy 0.98, test accuracy 0.9806
-step 4700, training accuracy 0.96, test accuracy 0.9828
-step 4800, training accuracy 0.98, test accuracy 0.9819
-step 4900, training accuracy 1, test accuracy 0.9824
-step 5000, training accuracy 1, test accuracy 0.9833
-step 5100, training accuracy 1, test accuracy 0.9834
-step 5200, training accuracy 0.98, test accuracy 0.9841
-step 5300, training accuracy 0.98, test accuracy 0.9838
-step 5400, training accuracy 0.96, test accuracy 0.9842
-step 5500, training accuracy 0.96, test accuracy 0.9844
-step 5600, training accuracy 1, test accuracy 0.9836
-step 5700, training accuracy 1, test accuracy 0.9839
-step 5800, training accuracy 0.98, test accuracy 0.9853
-step 5900, training accuracy 0.98, test accuracy 0.9852
-step 6000, training accuracy 1, test accuracy 0.9835
-step 6100, training accuracy 0.98, test accuracy 0.9846
-step 6200, training accuracy 0.98, test accuracy 0.9845
-step 6300, training accuracy 1, test accuracy 0.9825
-step 6400, training accuracy 0.98, test accuracy 0.9852
-step 6500, training accuracy 1, test accuracy 0.985
-step 6600, training accuracy 1, test accuracy 0.9864
-step 6700, training accuracy 0.98, test accuracy 0.9851
-step 6800, training accuracy 1, test accuracy 0.984
-step 6900, training accuracy 1, test accuracy 0.9846
-step 7000, training accuracy 1, test accuracy 0.9837
-step 7100, training accuracy 1, test accuracy 0.985
-step 7200, training accuracy 0.96, test accuracy 0.9853
-step 7300, training accuracy 0.98, test accuracy 0.9866
-step 7400, training accuracy 0.98, test accuracy 0.9868
-step 7500, training accuracy 1, test accuracy 0.9859
-step 7600, training accuracy 0.96, test accuracy 0.9879
-step 7700, training accuracy 0.98, test accuracy 0.9868
-step 7800, training accuracy 1, test accuracy 0.9867
-step 7900, training accuracy 1, test accuracy 0.9874
-step 8000, training accuracy 1, test accuracy 0.9868
-step 8100, training accuracy 0.98, test accuracy 0.9886
-step 8200, training accuracy 0.98, test accuracy 0.9868
-step 8300, training accuracy 0.98, test accuracy 0.9869
-step 8400, training accuracy 1, test accuracy 0.9876
-step 8500, training accuracy 0.98, test accuracy 0.9865
-step 8600, training accuracy 0.96, test accuracy 0.9881
-step 8700, training accuracy 1, test accuracy 0.989
-step 8800, training accuracy 0.98, test accuracy 0.9882
-step 8900, training accuracy 0.98, test accuracy 0.9877
-step 9000, training accuracy 0.98, test accuracy 0.9883
-step 9100, training accuracy 0.98, test accuracy 0.9891
-step 9200, training accuracy 1, test accuracy 0.989
-step 9300, training accuracy 0.96, test accuracy 0.9886
-step 9400, training accuracy 0.98, test accuracy 0.9885
-step 9500, training accuracy 1, test accuracy 0.9877
-step 9600, training accuracy 1, test accuracy 0.9887
-step 9700, training accuracy 1, test accuracy 0.9883
-step 9800, training accuracy 0.98, test accuracy 0.9886
-step 9900, training accuracy 1, test accuracy 0.9892
-step 10000, training accuracy 0.96, test accuracy 0.9892
-step 10100, training accuracy 1, test accuracy 0.9889
-step 10200, training accuracy 1, test accuracy 0.9884
-step 10300, training accuracy 1, test accuracy 0.9896
-step 10400, training accuracy 1, test accuracy 0.9884
-step 10500, training accuracy 1, test accuracy 0.9888
-step 10600, training accuracy 1, test accuracy 0.9868
-step 10700, training accuracy 0.98, test accuracy 0.9881
-step 10800, training accuracy 1, test accuracy 0.9888
-step 10900, training accuracy 1, test accuracy 0.9886
-step 11000, training accuracy 0.98, test accuracy 0.9891
-step 11100, training accuracy 1, test accuracy 0.9888
-step 11200, training accuracy 1, test accuracy 0.9896
-step 11300, training accuracy 1, test accuracy 0.9884
-step 11400, training accuracy 1, test accuracy 0.9889
-step 11500, training accuracy 0.98, test accuracy 0.9897
-step 11600, training accuracy 1, test accuracy 0.9895
-step 11700, training accuracy 0.98, test accuracy 0.9892
-step 11800, training accuracy 0.96, test accuracy 0.9899
-step 11900, training accuracy 1, test accuracy 0.9892
-step 12000, training accuracy 0.98, test accuracy 0.9889
-step 12100, training accuracy 0.98, test accuracy 0.9895
-step 12200, training accuracy 1, test accuracy 0.9894
-step 12300, training accuracy 0.98, test accuracy 0.9877
-step 12400, training accuracy 0.98, test accuracy 0.9883
-step 12500, training accuracy 1, test accuracy 0.9901
-step 12600, training accuracy 1, test accuracy 0.9908
-step 12700, training accuracy 1, test accuracy 0.9885
-step 12800, training accuracy 1, test accuracy 0.9899
-step 12900, training accuracy 1, test accuracy 0.9897
-step 13000, training accuracy 0.98, test accuracy 0.9894
-step 13100, training accuracy 0.98, test accuracy 0.9895
-step 13200, training accuracy 1, test accuracy 0.9897
-step 13300, training accuracy 0.98, test accuracy 0.9903
-step 13400, training accuracy 1, test accuracy 0.9907
-step 13500, training accuracy 1, test accuracy 0.9895
-step 13600, training accuracy 1, test accuracy 0.9893
-step 13700, training accuracy 1, test accuracy 0.9892
-step 13800, training accuracy 0.98, test accuracy 0.9892
-step 13900, training accuracy 1, test accuracy 0.9895
-step 14000, training accuracy 1, test accuracy 0.9912
-step 14100, training accuracy 1, test accuracy 0.99
-step 14200, training accuracy 1, test accuracy 0.9891
-step 14300, training accuracy 0.98, test accuracy 0.9908
-step 14400, training accuracy 1, test accuracy 0.9902
-step 14500, training accuracy 1, test accuracy 0.9916
-step 14600, training accuracy 0.98, test accuracy 0.9904
-step 14700, training accuracy 0.98, test accuracy 0.9901
-step 14800, training accuracy 1, test accuracy 0.9908
-step 14900, training accuracy 1, test accuracy 0.9905
-step 15000, training accuracy 1, test accuracy 0.9906
-step 15100, training accuracy 0.98, test accuracy 0.9906
-step 15200, training accuracy 1, test accuracy 0.9903
-step 15300, training accuracy 1, test accuracy 0.9897
-step 15400, training accuracy 1, test accuracy 0.9882
-step 15500, training accuracy 1, test accuracy 0.9901
-step 15600, training accuracy 1, test accuracy 0.99
-step 15700, training accuracy 1, test accuracy 0.9898
-step 15800, training accuracy 1, test accuracy 0.9905
-step 15900, training accuracy 1, test accuracy 0.9908
-step 16000, training accuracy 1, test accuracy 0.9908
-step 16100, training accuracy 1, test accuracy 0.9905
-step 16200, training accuracy 1, test accuracy 0.9911
-step 16300, training accuracy 1, test accuracy 0.991
-step 16400, training accuracy 1, test accuracy 0.9896
-step 16500, training accuracy 1, test accuracy 0.9914
-step 16600, training accuracy 1, test accuracy 0.9911
-step 16700, training accuracy 1, test accuracy 0.9913
-step 16800, training accuracy 1, test accuracy 0.9909
-step 16900, training accuracy 1, test accuracy 0.9907
-step 17000, training accuracy 0.98, test accuracy 0.9905
-step 17100, training accuracy 1, test accuracy 0.9902
-step 17200, training accuracy 1, test accuracy 0.9901
-step 17300, training accuracy 1, test accuracy 0.9895
-step 17400, training accuracy 1, test accuracy 0.9908
-step 17500, training accuracy 1, test accuracy 0.9914
-step 17600, training accuracy 1, test accuracy 0.9906
-step 17700, training accuracy 1, test accuracy 0.9902
-step 17800, training accuracy 1, test accuracy 0.9905
-step 17900, training accuracy 1, test accuracy 0.9907
-step 18000, training accuracy 1, test accuracy 0.9891
-step 18100, training accuracy 1, test accuracy 0.9898
-step 18200, training accuracy 1, test accuracy 0.9901
-step 18300, training accuracy 0.98, test accuracy 0.9902
-step 18400, training accuracy 1, test accuracy 0.9906
-step 18500, training accuracy 1, test accuracy 0.9913
-step 18600, training accuracy 1, test accuracy 0.9912
-step 18700, training accuracy 1, test accuracy 0.9912
-step 18800, training accuracy 1, test accuracy 0.9906
-step 18900, training accuracy 1, test accuracy 0.9904
-step 19000, training accuracy 0.98, test accuracy 0.9914
-step 19100, training accuracy 1, test accuracy 0.9911
-step 19200, training accuracy 1, test accuracy 0.9921
-step 19300, training accuracy 0.98, test accuracy 0.9907
-step 19400, training accuracy 1, test accuracy 0.992
-step 19500, training accuracy 1, test accuracy 0.9918
-step 19600, training accuracy 1, test accuracy 0.9919
-step 19700, training accuracy 1, test accuracy 0.9919
-step 19800, training accuracy 1, test accuracy 0.992
-step 19900, training accuracy 1, test accuracy 0.9916
-step 20000, training accuracy 1, test accuracy 0.9921
-test accuracy 0.9921
+step 0 training  0.12 test  0.1135
+step 100 training  0.86 test  0.7834
+step 200 training  0.78 test  0.881
+step 300 training  0.92 test  0.9044
+step 400 training  0.9 test  0.9254
+step 500 training  0.96 test  0.9313
+step 600 training  0.98 test  0.9405
+step 700 training  0.98 test  0.942
+step 800 training  0.96 test  0.9443
+step 900 training  0.98 test  0.9482
+step 1000 training  0.92 test  0.9535
+step 1100 training  0.98 test  0.9571
+step 1200 training  0.98 test  0.9591
+step 1300 training  0.98 test  0.9598
+step 1400 training  0.96 test  0.9635
+step 1500 training  0.98 test  0.9615
+step 1600 training  0.98 test  0.9652
+step 1700 training  0.98 test  0.9682
+step 1800 training  0.96 test  0.9686
+step 1900 training  1 test  0.9707
+step 2000 training  1 test  0.9714
+step 2100 training  0.92 test  0.9703
+step 2200 training  0.94 test  0.9715
+step 2300 training  1 test  0.9697
+step 2400 training  0.94 test  0.9716
+step 2500 training  0.96 test  0.9734
+step 2600 training  1 test  0.9721
+step 2700 training  0.98 test  0.9749
+step 2800 training  0.98 test  0.9747
+step 2900 training  0.98 test  0.9754
+step 3000 training  0.98 test  0.9743
+step 3100 training  0.98 test  0.9781
+step 3200 training  1 test  0.9776
+step 3300 training  0.94 test  0.978
+step 3400 training  0.96 test  0.9796
+step 3500 training  0.96 test  0.9791
+step 3600 training  1 test  0.9793
+step 3700 training  1 test  0.9776
+step 3800 training  1 test  0.9796
+step 3900 training  0.98 test  0.9803
+step 4000 training  0.94 test  0.9812
+step 4100 training  0.96 test  0.981
+step 4200 training  0.98 test  0.9802
+step 4300 training  0.94 test  0.9783
+step 4400 training  1 test  0.9824
+step 4500 training  0.98 test  0.9801
+step 4600 training  0.98 test  0.9806
+step 4700 training  0.96 test  0.9828
+step 4800 training  0.98 test  0.9819
+step 4900 training  1 test  0.9824
+step 5000 training  1 test  0.9833
+step 5100 training  1 test  0.9834
+step 5200 training  0.98 test  0.9841
+step 5300 training  0.98 test  0.9838
+step 5400 training  0.96 test  0.9842
+step 5500 training  0.96 test  0.9844
+step 5600 training  1 test  0.9836
+step 5700 training  1 test  0.9839
+step 5800 training  0.98 test  0.9853
+step 5900 training  0.98 test  0.9852
+step 6000 training  1 test  0.9835
+step 6100 training  0.98 test  0.9846
+step 6200 training  0.98 test  0.9845
+step 6300 training  1 test  0.9825
+step 6400 training  0.98 test  0.9852
+step 6500 training  1 test  0.985
+step 6600 training  1 test  0.9864
+step 6700 training  0.98 test  0.9851
+step 6800 training  1 test  0.984
+step 6900 training  1 test  0.9846
+step 7000 training  1 test  0.9837
+step 7100 training  1 test  0.985
+step 7200 training  0.96 test  0.9853
+step 7300 training  0.98 test  0.9866
+step 7400 training  0.98 test  0.9868
+step 7500 training  1 test  0.9859
+step 7600 training  0.96 test  0.9879
+step 7700 training  0.98 test  0.9868
+step 7800 training  1 test  0.9867
+step 7900 training  1 test  0.9874
+step 8000 training  1 test  0.9868
+step 8100 training  0.98 test  0.9886
+step 8200 training  0.98 test  0.9868
+step 8300 training  0.98 test  0.9869
+step 8400 training  1 test  0.9876
+step 8500 training  0.98 test  0.9865
+step 8600 training  0.96 test  0.9881
+step 8700 training  1 test  0.989
+step 8800 training  0.98 test  0.9882
+step 8900 training  0.98 test  0.9877
+step 9000 training  0.98 test  0.9883
+step 9100 training  0.98 test  0.9891
+step 9200 training  1 test  0.989
+step 9300 training  0.96 test  0.9886
+step 9400 training  0.98 test  0.9885
+step 9500 training  1 test  0.9877
+step 9600 training  1 test  0.9887
+step 9700 training  1 test  0.9883
+step 9800 training  0.98 test  0.9886
+step 9900 training  1 test  0.9892
+step 10000 training  0.96 test  0.9892
+step 10100 training  1 test  0.9889
+step 10200 training  1 test  0.9884
+step 10300 training  1 test  0.9896
+step 10400 training  1 test  0.9884
+step 10500 training  1 test  0.9888
+step 10600 training  1 test  0.9868
+step 10700 training  0.98 test  0.9881
+step 10800 training  1 test  0.9888
+step 10900 training  1 test  0.9886
+step 11000 training  0.98 test  0.9891
+step 11100 training  1 test  0.9888
+step 11200 training  1 test  0.9896
+step 11300 training  1 test  0.9884
+step 11400 training  1 test  0.9889
+step 11500 training  0.98 test  0.9897
+step 11600 training  1 test  0.9895
+step 11700 training  0.98 test  0.9892
+step 11800 training  0.96 test  0.9899
+step 11900 training  1 test  0.9892
+step 12000 training  0.98 test  0.9889
+step 12100 training  0.98 test  0.9895
+step 12200 training  1 test  0.9894
+step 12300 training  0.98 test  0.9877
+step 12400 training  0.98 test  0.9883
+step 12500 training  1 test  0.9901
+step 12600 training  1 test  0.9908
+step 12700 training  1 test  0.9885
+step 12800 training  1 test  0.9899
+step 12900 training  1 test  0.9897
+step 13000 training  0.98 test  0.9894
+step 13100 training  0.98 test  0.9895
+step 13200 training  1 test  0.9897
+step 13300 training  0.98 test  0.9903
+step 13400 training  1 test  0.9907
+step 13500 training  1 test  0.9895
+step 13600 training  1 test  0.9893
+step 13700 training  1 test  0.9892
+step 13800 training  0.98 test  0.9892
+step 13900 training  1 test  0.9895
+step 14000 training  1 test  0.9912
+step 14100 training  1 test  0.99
+step 14200 training  1 test  0.9891
+step 14300 training  0.98 test  0.9908
+step 14400 training  1 test  0.9902
+step 14500 training  1 test  0.9916
+step 14600 training  0.98 test  0.9904
+step 14700 training  0.98 test  0.9901
+step 14800 training  1 test  0.9908
+step 14900 training  1 test  0.9905
+step 15000 training  1 test  0.9906
+step 15100 training  0.98 test  0.9906
+step 15200 training  1 test  0.9903
+step 15300 training  1 test  0.9897
+step 15400 training  1 test  0.9882
+step 15500 training  1 test  0.9901
+step 15600 training  1 test  0.99
+step 15700 training  1 test  0.9898
+step 15800 training  1 test  0.9905
+step 15900 training  1 test  0.9908
+step 16000 training  1 test  0.9908
+step 16100 training  1 test  0.9905
+step 16200 training  1 test  0.9911
+step 16300 training  1 test  0.991
+step 16400 training  1 test  0.9896
+step 16500 training  1 test  0.9914
+step 16600 training  1 test  0.9911
+step 16700 training  1 test  0.9913
+step 16800 training  1 test  0.9909
+step 16900 training  1 test  0.9907
+step 17000 training  0.98 test  0.9905
+step 17100 training  1 test  0.9902
+step 17200 training  1 test  0.9901
+step 17300 training  1 test  0.9895
+step 17400 training  1 test  0.9908
+step 17500 training  1 test  0.9914
+step 17600 training  1 test  0.9906
+step 17700 training  1 test  0.9902
+step 17800 training  1 test  0.9905
+step 17900 training  1 test  0.9907
+step 18000 training  1 test  0.9891
+step 18100 training  1 test  0.9898
+step 18200 training  1 test  0.9901
+step 18300 training  0.98 test  0.9902
+step 18400 training  1 test  0.9906
+step 18500 training  1 test  0.9913
+step 18600 training  1 test  0.9912
+step 18700 training  1 test  0.9912
+step 18800 training  1 test  0.9906
+step 18900 training  1 test  0.9904
+step 19000 training  0.98 test  0.9914
+step 19100 training  1 test  0.9911
+step 19200 training  1 test  0.9921
+step 19300 training  0.98 test  0.9907
+step 19400 training  1 test  0.992
+step 19500 training  1 test  0.9918
+step 19600 training  1 test  0.9919
+step 19700 training  1 test  0.9919
+step 19800 training  1 test  0.992
+step 19900 training  1 test  0.9916
+step 20000 training  1 test  0.9921
+test  0.9921
 
 Command: mnist_softmax_dg.py --drop_grads_prob=0.5 --out_file=results_0.5.txt --batches=40000
-step 0, training accuracy 0.12, test accuracy 0.0837
-step 100, training accuracy 0.76, test accuracy 0.7506
-step 200, training accuracy 0.84, test accuracy 0.8746
-step 300, training accuracy 0.88, test accuracy 0.904
-step 400, training accuracy 0.88, test accuracy 0.9157
-step 500, training accuracy 0.98, test accuracy 0.9284
-step 600, training accuracy 0.88, test accuracy 0.9374
-step 700, training accuracy 0.96, test accuracy 0.9436
-step 800, training accuracy 0.86, test accuracy 0.947
-step 900, training accuracy 0.98, test accuracy 0.9514
-step 1000, training accuracy 0.94, test accuracy 0.9529
-step 1100, training accuracy 0.92, test accuracy 0.9551
-step 1200, training accuracy 0.94, test accuracy 0.9599
-step 1300, training accuracy 0.98, test accuracy 0.9553
-step 1400, training accuracy 0.96, test accuracy 0.9606
-step 1500, training accuracy 0.96, test accuracy 0.96
-step 1600, training accuracy 0.94, test accuracy 0.962
-step 1700, training accuracy 0.98, test accuracy 0.966
-step 1800, training accuracy 1, test accuracy 0.9649
-step 1900, training accuracy 0.96, test accuracy 0.9685
-step 2000, training accuracy 0.98, test accuracy 0.9662
-step 2100, training accuracy 0.96, test accuracy 0.9703
-step 2200, training accuracy 0.92, test accuracy 0.9698
-step 2300, training accuracy 0.92, test accuracy 0.9707
-step 2400, training accuracy 0.98, test accuracy 0.9729
-step 2500, training accuracy 0.98, test accuracy 0.9694
-step 2600, training accuracy 1, test accuracy 0.9742
-step 2700, training accuracy 0.98, test accuracy 0.9738
-step 2800, training accuracy 1, test accuracy 0.9721
-step 2900, training accuracy 0.98, test accuracy 0.9727
-step 3000, training accuracy 0.98, test accuracy 0.9748
-step 3100, training accuracy 0.96, test accuracy 0.9729
-step 3200, training accuracy 0.94, test accuracy 0.9762
-step 3300, training accuracy 0.98, test accuracy 0.9772
-step 3400, training accuracy 1, test accuracy 0.9742
-step 3500, training accuracy 0.94, test accuracy 0.9792
-step 3600, training accuracy 1, test accuracy 0.9782
-step 3700, training accuracy 1, test accuracy 0.9791
-step 3800, training accuracy 0.94, test accuracy 0.9786
-step 3900, training accuracy 0.96, test accuracy 0.9797
-step 4000, training accuracy 0.98, test accuracy 0.9809
-step 4100, training accuracy 0.96, test accuracy 0.9784
-step 4200, training accuracy 0.98, test accuracy 0.9821
-step 4300, training accuracy 0.96, test accuracy 0.9805
-step 4400, training accuracy 0.96, test accuracy 0.9797
-step 4500, training accuracy 1, test accuracy 0.9806
-step 4600, training accuracy 1, test accuracy 0.9811
-step 4700, training accuracy 0.98, test accuracy 0.9813
-step 4800, training accuracy 0.96, test accuracy 0.9816
-step 4900, training accuracy 0.92, test accuracy 0.9772
-step 5000, training accuracy 0.96, test accuracy 0.9818
-step 5100, training accuracy 1, test accuracy 0.983
-step 5200, training accuracy 0.98, test accuracy 0.9815
-step 5300, training accuracy 1, test accuracy 0.9842
-step 5400, training accuracy 0.98, test accuracy 0.9821
-step 5500, training accuracy 1, test accuracy 0.9835
-step 5600, training accuracy 0.96, test accuracy 0.9842
-step 5700, training accuracy 1, test accuracy 0.9855
-step 5800, training accuracy 0.98, test accuracy 0.9847
-step 5900, training accuracy 0.98, test accuracy 0.9837
-step 6000, training accuracy 1, test accuracy 0.9841
-step 6100, training accuracy 1, test accuracy 0.9842
-step 6200, training accuracy 0.98, test accuracy 0.9841
-step 6300, training accuracy 1, test accuracy 0.9829
-step 6400, training accuracy 0.94, test accuracy 0.9842
-step 6500, training accuracy 1, test accuracy 0.9817
-step 6600, training accuracy 1, test accuracy 0.9846
-step 6700, training accuracy 0.98, test accuracy 0.9862
-step 6800, training accuracy 1, test accuracy 0.9848
-step 6900, training accuracy 1, test accuracy 0.9866
-step 7000, training accuracy 1, test accuracy 0.9848
-step 7100, training accuracy 1, test accuracy 0.9846
-step 7200, training accuracy 1, test accuracy 0.9855
-step 7300, training accuracy 0.96, test accuracy 0.9862
-step 7400, training accuracy 1, test accuracy 0.9852
-step 7500, training accuracy 1, test accuracy 0.9878
-step 7600, training accuracy 1, test accuracy 0.9862
-step 7700, training accuracy 0.98, test accuracy 0.9878
-step 7800, training accuracy 0.98, test accuracy 0.9865
-step 7900, training accuracy 1, test accuracy 0.9864
-step 8000, training accuracy 0.98, test accuracy 0.9872
-step 8100, training accuracy 1, test accuracy 0.9874
-step 8200, training accuracy 0.98, test accuracy 0.9879
-step 8300, training accuracy 1, test accuracy 0.9866
-step 8400, training accuracy 1, test accuracy 0.9859
-step 8500, training accuracy 1, test accuracy 0.9868
-step 8600, training accuracy 0.96, test accuracy 0.9864
-step 8700, training accuracy 1, test accuracy 0.9878
-step 8800, training accuracy 0.98, test accuracy 0.988
-step 8900, training accuracy 1, test accuracy 0.9882
-step 9000, training accuracy 1, test accuracy 0.988
-step 9100, training accuracy 1, test accuracy 0.9875
-step 9200, training accuracy 0.98, test accuracy 0.9889
-step 9300, training accuracy 0.98, test accuracy 0.9895
-step 9400, training accuracy 1, test accuracy 0.989
-step 9500, training accuracy 1, test accuracy 0.9864
-step 9600, training accuracy 1, test accuracy 0.9879
-step 9700, training accuracy 1, test accuracy 0.9889
-step 9800, training accuracy 1, test accuracy 0.9892
-step 9900, training accuracy 1, test accuracy 0.9898
-step 10000, training accuracy 0.98, test accuracy 0.9895
-step 10100, training accuracy 1, test accuracy 0.9882
-step 10200, training accuracy 1, test accuracy 0.9889
-step 10300, training accuracy 1, test accuracy 0.9879
-step 10400, training accuracy 1, test accuracy 0.9887
-step 10500, training accuracy 1, test accuracy 0.9895
-step 10600, training accuracy 0.98, test accuracy 0.989
-step 10700, training accuracy 1, test accuracy 0.9903
-step 10800, training accuracy 1, test accuracy 0.9902
-step 10900, training accuracy 1, test accuracy 0.9889
-step 11000, training accuracy 1, test accuracy 0.989
-step 11100, training accuracy 1, test accuracy 0.9897
-step 11200, training accuracy 1, test accuracy 0.9889
-step 11300, training accuracy 0.98, test accuracy 0.9896
-step 11400, training accuracy 0.98, test accuracy 0.9889
-step 11500, training accuracy 1, test accuracy 0.9897
-step 11600, training accuracy 0.98, test accuracy 0.9899
-step 11700, training accuracy 1, test accuracy 0.9886
-step 11800, training accuracy 1, test accuracy 0.9902
-step 11900, training accuracy 0.98, test accuracy 0.9902
-step 12000, training accuracy 1, test accuracy 0.9895
-step 12100, training accuracy 1, test accuracy 0.9896
-step 12200, training accuracy 1, test accuracy 0.9899
-step 12300, training accuracy 1, test accuracy 0.9898
-step 12400, training accuracy 0.96, test accuracy 0.9894
-step 12500, training accuracy 0.98, test accuracy 0.9894
-step 12600, training accuracy 1, test accuracy 0.9901
-step 12700, training accuracy 1, test accuracy 0.9889
-step 12800, training accuracy 1, test accuracy 0.9891
-step 12900, training accuracy 1, test accuracy 0.9885
-step 13000, training accuracy 0.98, test accuracy 0.9906
-step 13100, training accuracy 0.98, test accuracy 0.9905
-step 13200, training accuracy 1, test accuracy 0.9903
-step 13300, training accuracy 1, test accuracy 0.9901
-step 13400, training accuracy 1, test accuracy 0.9899
-step 13500, training accuracy 1, test accuracy 0.9901
-step 13600, training accuracy 1, test accuracy 0.9899
-step 13700, training accuracy 0.98, test accuracy 0.9908
-step 13800, training accuracy 1, test accuracy 0.9895
-step 13900, training accuracy 1, test accuracy 0.9901
-step 14000, training accuracy 0.98, test accuracy 0.9889
-step 14100, training accuracy 1, test accuracy 0.9889
-step 14200, training accuracy 1, test accuracy 0.9894
-step 14300, training accuracy 1, test accuracy 0.9905
-step 14400, training accuracy 1, test accuracy 0.9904
-step 14500, training accuracy 0.96, test accuracy 0.9904
-step 14600, training accuracy 1, test accuracy 0.9904
-step 14700, training accuracy 1, test accuracy 0.9912
-step 14800, training accuracy 0.98, test accuracy 0.9905
-step 14900, training accuracy 1, test accuracy 0.9903
-step 15000, training accuracy 1, test accuracy 0.9906
-step 15100, training accuracy 1, test accuracy 0.991
-step 15200, training accuracy 0.98, test accuracy 0.9906
-step 15300, training accuracy 1, test accuracy 0.9898
-step 15400, training accuracy 1, test accuracy 0.9891
-step 15500, training accuracy 1, test accuracy 0.9912
-step 15600, training accuracy 1, test accuracy 0.9905
-step 15700, training accuracy 1, test accuracy 0.9898
-step 15800, training accuracy 1, test accuracy 0.9901
-step 15900, training accuracy 1, test accuracy 0.9907
-step 16000, training accuracy 1, test accuracy 0.9906
-step 16100, training accuracy 1, test accuracy 0.9908
-step 16200, training accuracy 1, test accuracy 0.9907
-step 16300, training accuracy 0.98, test accuracy 0.9908
-step 16400, training accuracy 1, test accuracy 0.9907
-step 16500, training accuracy 1, test accuracy 0.9915
-step 16600, training accuracy 1, test accuracy 0.9907
-step 16700, training accuracy 1, test accuracy 0.9911
-step 16800, training accuracy 1, test accuracy 0.9909
-step 16900, training accuracy 1, test accuracy 0.9901
-step 17000, training accuracy 1, test accuracy 0.9906
-step 17100, training accuracy 0.98, test accuracy 0.9902
-step 17200, training accuracy 1, test accuracy 0.9916
-step 17300, training accuracy 1, test accuracy 0.9907
-step 17400, training accuracy 1, test accuracy 0.9903
-step 17500, training accuracy 1, test accuracy 0.9908
-step 17600, training accuracy 1, test accuracy 0.9905
-step 17700, training accuracy 0.98, test accuracy 0.9918
-step 17800, training accuracy 1, test accuracy 0.9911
-step 17900, training accuracy 1, test accuracy 0.9896
-step 18000, training accuracy 1, test accuracy 0.9915
-step 18100, training accuracy 1, test accuracy 0.9909
-step 18200, training accuracy 1, test accuracy 0.9911
-step 18300, training accuracy 1, test accuracy 0.9894
-step 18400, training accuracy 1, test accuracy 0.9908
-step 18500, training accuracy 1, test accuracy 0.9918
-step 18600, training accuracy 1, test accuracy 0.9922
-step 18700, training accuracy 1, test accuracy 0.9905
-step 18800, training accuracy 1, test accuracy 0.9903
-step 18900, training accuracy 1, test accuracy 0.9913
-step 19000, training accuracy 1, test accuracy 0.9911
-step 19100, training accuracy 1, test accuracy 0.9906
-step 19200, training accuracy 0.98, test accuracy 0.9899
-step 19300, training accuracy 0.98, test accuracy 0.9906
-step 19400, training accuracy 1, test accuracy 0.9908
-step 19500, training accuracy 1, test accuracy 0.991
-step 19600, training accuracy 1, test accuracy 0.9911
-step 19700, training accuracy 1, test accuracy 0.9911
-step 19800, training accuracy 0.98, test accuracy 0.9903
-step 19900, training accuracy 1, test accuracy 0.9907
-step 20000, training accuracy 1, test accuracy 0.9909
-step 20100, training accuracy 1, test accuracy 0.9917
-step 20200, training accuracy 1, test accuracy 0.9907
-step 20300, training accuracy 1, test accuracy 0.9906
-step 20400, training accuracy 1, test accuracy 0.9921
-step 20500, training accuracy 1, test accuracy 0.9904
-step 20600, training accuracy 1, test accuracy 0.9914
-step 20700, training accuracy 1, test accuracy 0.9913
-step 20800, training accuracy 0.98, test accuracy 0.9915
-step 20900, training accuracy 1, test accuracy 0.9917
-step 21000, training accuracy 1, test accuracy 0.9913
-step 21100, training accuracy 0.98, test accuracy 0.9921
-step 21200, training accuracy 1, test accuracy 0.9918
-step 21300, training accuracy 0.98, test accuracy 0.9919
-step 21400, training accuracy 1, test accuracy 0.9916
-step 21500, training accuracy 1, test accuracy 0.9928
-step 21600, training accuracy 0.98, test accuracy 0.9913
-step 21700, training accuracy 1, test accuracy 0.9918
-step 21800, training accuracy 1, test accuracy 0.9929
-step 21900, training accuracy 1, test accuracy 0.9918
-step 22000, training accuracy 0.98, test accuracy 0.9916
-step 22100, training accuracy 1, test accuracy 0.9917
-step 22200, training accuracy 1, test accuracy 0.9917
-step 22300, training accuracy 1, test accuracy 0.992
-step 22400, training accuracy 1, test accuracy 0.9921
-step 22500, training accuracy 1, test accuracy 0.9915
-step 22600, training accuracy 1, test accuracy 0.9922
-step 22700, training accuracy 1, test accuracy 0.9926
-step 22800, training accuracy 1, test accuracy 0.9927
-step 22900, training accuracy 1, test accuracy 0.9924
-step 23000, training accuracy 1, test accuracy 0.9915
-step 23100, training accuracy 1, test accuracy 0.9923
-step 23200, training accuracy 1, test accuracy 0.9908
-step 23300, training accuracy 1, test accuracy 0.9912
-step 23400, training accuracy 0.98, test accuracy 0.9918
-step 23500, training accuracy 1, test accuracy 0.992
-step 23600, training accuracy 1, test accuracy 0.9915
-step 23700, training accuracy 1, test accuracy 0.9915
-step 23800, training accuracy 1, test accuracy 0.9913
-step 23900, training accuracy 1, test accuracy 0.9925
-step 24000, training accuracy 1, test accuracy 0.9918
-step 24100, training accuracy 1, test accuracy 0.9924
-step 24200, training accuracy 1, test accuracy 0.992
-step 24300, training accuracy 1, test accuracy 0.9925
-step 24400, training accuracy 1, test accuracy 0.993
-step 24500, training accuracy 1, test accuracy 0.9927
-step 24600, training accuracy 1, test accuracy 0.9912
-step 24700, training accuracy 1, test accuracy 0.9919
-step 24800, training accuracy 1, test accuracy 0.9927
-step 24900, training accuracy 1, test accuracy 0.9918
-step 25000, training accuracy 1, test accuracy 0.9915
-step 25100, training accuracy 1, test accuracy 0.9913
-step 25200, training accuracy 1, test accuracy 0.9914
-step 25300, training accuracy 1, test accuracy 0.9921
-step 25400, training accuracy 1, test accuracy 0.9925
-step 25500, training accuracy 1, test accuracy 0.9924
-step 25600, training accuracy 1, test accuracy 0.9922
-step 25700, training accuracy 1, test accuracy 0.9911
-step 25800, training accuracy 1, test accuracy 0.9922
-step 25900, training accuracy 1, test accuracy 0.9929
-step 26000, training accuracy 1, test accuracy 0.9923
-step 26100, training accuracy 1, test accuracy 0.9931
-step 26200, training accuracy 1, test accuracy 0.9926
-step 26300, training accuracy 1, test accuracy 0.9927
-step 26400, training accuracy 1, test accuracy 0.9933
-step 26500, training accuracy 1, test accuracy 0.9928
-step 26600, training accuracy 1, test accuracy 0.9921
-step 26700, training accuracy 1, test accuracy 0.9922
-step 26800, training accuracy 1, test accuracy 0.9923
-step 26900, training accuracy 1, test accuracy 0.9928
-step 27000, training accuracy 1, test accuracy 0.993
-step 27100, training accuracy 1, test accuracy 0.9926
-step 27200, training accuracy 1, test accuracy 0.9922
-step 27300, training accuracy 1, test accuracy 0.992
-step 27400, training accuracy 1, test accuracy 0.9926
-step 27500, training accuracy 1, test accuracy 0.9917
-step 27600, training accuracy 1, test accuracy 0.9921
-step 27700, training accuracy 1, test accuracy 0.992
-step 27800, training accuracy 0.98, test accuracy 0.9911
-step 27900, training accuracy 1, test accuracy 0.9925
-step 28000, training accuracy 1, test accuracy 0.992
-step 28100, training accuracy 1, test accuracy 0.99
-step 28200, training accuracy 1, test accuracy 0.9922
-step 28300, training accuracy 1, test accuracy 0.9922
-step 28400, training accuracy 1, test accuracy 0.9914
-step 28500, training accuracy 0.98, test accuracy 0.9918
-step 28600, training accuracy 1, test accuracy 0.9924
-step 28700, training accuracy 1, test accuracy 0.9922
-step 28800, training accuracy 1, test accuracy 0.9922
-step 28900, training accuracy 1, test accuracy 0.9922
-step 29000, training accuracy 1, test accuracy 0.9918
-step 29100, training accuracy 1, test accuracy 0.9923
-step 29200, training accuracy 1, test accuracy 0.9927
-step 29300, training accuracy 1, test accuracy 0.9913
-step 29400, training accuracy 1, test accuracy 0.9921
-step 29500, training accuracy 1, test accuracy 0.9918
-step 29600, training accuracy 1, test accuracy 0.992
-step 29700, training accuracy 1, test accuracy 0.9922
-step 29800, training accuracy 1, test accuracy 0.9922
-step 29900, training accuracy 1, test accuracy 0.9921
-step 30000, training accuracy 1, test accuracy 0.992
-step 30100, training accuracy 1, test accuracy 0.9913
-step 30200, training accuracy 1, test accuracy 0.9926
-step 30300, training accuracy 1, test accuracy 0.9913
-step 30400, training accuracy 1, test accuracy 0.9915
-step 30500, training accuracy 1, test accuracy 0.9919
-step 30600, training accuracy 1, test accuracy 0.9923
-step 30700, training accuracy 1, test accuracy 0.991
-step 30800, training accuracy 1, test accuracy 0.9916
-step 30900, training accuracy 1, test accuracy 0.9922
-step 31000, training accuracy 1, test accuracy 0.9918
-step 31100, training accuracy 1, test accuracy 0.9919
-step 31200, training accuracy 1, test accuracy 0.9927
-step 31300, training accuracy 1, test accuracy 0.9932
-step 31400, training accuracy 1, test accuracy 0.992
-step 31500, training accuracy 1, test accuracy 0.9922
-step 31600, training accuracy 1, test accuracy 0.9922
-step 31700, training accuracy 1, test accuracy 0.9933
-step 31800, training accuracy 1, test accuracy 0.9927
-step 31900, training accuracy 1, test accuracy 0.9926
-step 32000, training accuracy 1, test accuracy 0.9927
-step 32100, training accuracy 1, test accuracy 0.9923
-step 32200, training accuracy 1, test accuracy 0.9919
-step 32300, training accuracy 1, test accuracy 0.9917
-step 32400, training accuracy 1, test accuracy 0.9921
-step 32500, training accuracy 0.98, test accuracy 0.9934
-step 32600, training accuracy 1, test accuracy 0.993
-step 32700, training accuracy 1, test accuracy 0.9931
-step 32800, training accuracy 1, test accuracy 0.9921
-step 32900, training accuracy 0.98, test accuracy 0.9933
-step 33000, training accuracy 1, test accuracy 0.9934
-step 33100, training accuracy 1, test accuracy 0.9927
-step 33200, training accuracy 1, test accuracy 0.991
-step 33300, training accuracy 1, test accuracy 0.9917
-step 33400, training accuracy 1, test accuracy 0.9917
-step 33500, training accuracy 1, test accuracy 0.9924
-step 33600, training accuracy 1, test accuracy 0.9926
-step 33700, training accuracy 1, test accuracy 0.993
-step 33800, training accuracy 1, test accuracy 0.9926
-step 33900, training accuracy 1, test accuracy 0.993
-step 34000, training accuracy 1, test accuracy 0.9918
-step 34100, training accuracy 1, test accuracy 0.9927
-step 34200, training accuracy 1, test accuracy 0.9923
-step 34300, training accuracy 1, test accuracy 0.9912
-step 34400, training accuracy 1, test accuracy 0.9907
-step 34500, training accuracy 1, test accuracy 0.9919
-step 34600, training accuracy 1, test accuracy 0.9925
-step 34700, training accuracy 1, test accuracy 0.9924
-step 34800, training accuracy 1, test accuracy 0.992
-step 34900, training accuracy 1, test accuracy 0.9922
-step 35000, training accuracy 1, test accuracy 0.9925
-step 35100, training accuracy 1, test accuracy 0.9921
-step 35200, training accuracy 1, test accuracy 0.9911
-step 35300, training accuracy 1, test accuracy 0.9921
-step 35400, training accuracy 1, test accuracy 0.9922
-step 35500, training accuracy 1, test accuracy 0.9925
-step 35600, training accuracy 1, test accuracy 0.9921
-step 35700, training accuracy 1, test accuracy 0.9932
-step 35800, training accuracy 1, test accuracy 0.9929
-step 35900, training accuracy 1, test accuracy 0.9929
-step 36000, training accuracy 1, test accuracy 0.9913
-step 36100, training accuracy 1, test accuracy 0.9923
-step 36200, training accuracy 1, test accuracy 0.9913
-step 36300, training accuracy 1, test accuracy 0.9926
-step 36400, training accuracy 1, test accuracy 0.9916
-step 36500, training accuracy 1, test accuracy 0.9934
-step 36600, training accuracy 1, test accuracy 0.993
-step 36700, training accuracy 1, test accuracy 0.9933
-step 36800, training accuracy 1, test accuracy 0.9926
-step 36900, training accuracy 1, test accuracy 0.9925
-step 37000, training accuracy 1, test accuracy 0.9925
-step 37100, training accuracy 1, test accuracy 0.9925
-step 37200, training accuracy 1, test accuracy 0.9929
-step 37300, training accuracy 1, test accuracy 0.9921
-step 37400, training accuracy 0.98, test accuracy 0.9931
-step 37500, training accuracy 1, test accuracy 0.9931
-step 37600, training accuracy 1, test accuracy 0.9927
-step 37700, training accuracy 1, test accuracy 0.993
-step 37800, training accuracy 1, test accuracy 0.9931
-step 37900, training accuracy 1, test accuracy 0.9927
-step 38000, training accuracy 1, test accuracy 0.9929
-step 38100, training accuracy 1, test accuracy 0.9923
-step 38200, training accuracy 1, test accuracy 0.9922
-step 38300, training accuracy 1, test accuracy 0.9928
-step 38400, training accuracy 1, test accuracy 0.9921
-step 38500, training accuracy 1, test accuracy 0.9931
-step 38600, training accuracy 0.98, test accuracy 0.9932
-step 38700, training accuracy 1, test accuracy 0.9937
-step 38800, training accuracy 1, test accuracy 0.9936
-step 38900, training accuracy 1, test accuracy 0.9926
-step 39000, training accuracy 1, test accuracy 0.9922
-step 39100, training accuracy 1, test accuracy 0.9925
-step 39200, training accuracy 1, test accuracy 0.9923
-step 39300, training accuracy 1, test accuracy 0.9923
-step 39400, training accuracy 1, test accuracy 0.9911
-step 39500, training accuracy 1, test accuracy 0.9931
-step 39600, training accuracy 1, test accuracy 0.9927
-step 39700, training accuracy 1, test accuracy 0.9928
-step 39800, training accuracy 1, test accuracy 0.9928
-step 39900, training accuracy 1, test accuracy 0.9935
-step 40000, training accuracy 1, test accuracy 0.9932
-test accuracy 0.9931
+step 0 training  0.12 test  0.0837
+step 100 training  0.76 test  0.7506
+step 200 training  0.84 test  0.8746
+step 300 training  0.88 test  0.904
+step 400 training  0.88 test  0.9157
+step 500 training  0.98 test  0.9284
+step 600 training  0.88 test  0.9374
+step 700 training  0.96 test  0.9436
+step 800 training  0.86 test  0.947
+step 900 training  0.98 test  0.9514
+step 1000 training  0.94 test  0.9529
+step 1100 training  0.92 test  0.9551
+step 1200 training  0.94 test  0.9599
+step 1300 training  0.98 test  0.9553
+step 1400 training  0.96 test  0.9606
+step 1500 training  0.96 test  0.96
+step 1600 training  0.94 test  0.962
+step 1700 training  0.98 test  0.966
+step 1800 training  1 test  0.9649
+step 1900 training  0.96 test  0.9685
+step 2000 training  0.98 test  0.9662
+step 2100 training  0.96 test  0.9703
+step 2200 training  0.92 test  0.9698
+step 2300 training  0.92 test  0.9707
+step 2400 training  0.98 test  0.9729
+step 2500 training  0.98 test  0.9694
+step 2600 training  1 test  0.9742
+step 2700 training  0.98 test  0.9738
+step 2800 training  1 test  0.9721
+step 2900 training  0.98 test  0.9727
+step 3000 training  0.98 test  0.9748
+step 3100 training  0.96 test  0.9729
+step 3200 training  0.94 test  0.9762
+step 3300 training  0.98 test  0.9772
+step 3400 training  1 test  0.9742
+step 3500 training  0.94 test  0.9792
+step 3600 training  1 test  0.9782
+step 3700 training  1 test  0.9791
+step 3800 training  0.94 test  0.9786
+step 3900 training  0.96 test  0.9797
+step 4000 training  0.98 test  0.9809
+step 4100 training  0.96 test  0.9784
+step 4200 training  0.98 test  0.9821
+step 4300 training  0.96 test  0.9805
+step 4400 training  0.96 test  0.9797
+step 4500 training  1 test  0.9806
+step 4600 training  1 test  0.9811
+step 4700 training  0.98 test  0.9813
+step 4800 training  0.96 test  0.9816
+step 4900 training  0.92 test  0.9772
+step 5000 training  0.96 test  0.9818
+step 5100 training  1 test  0.983
+step 5200 training  0.98 test  0.9815
+step 5300 training  1 test  0.9842
+step 5400 training  0.98 test  0.9821
+step 5500 training  1 test  0.9835
+step 5600 training  0.96 test  0.9842
+step 5700 training  1 test  0.9855
+step 5800 training  0.98 test  0.9847
+step 5900 training  0.98 test  0.9837
+step 6000 training  1 test  0.9841
+step 6100 training  1 test  0.9842
+step 6200 training  0.98 test  0.9841
+step 6300 training  1 test  0.9829
+step 6400 training  0.94 test  0.9842
+step 6500 training  1 test  0.9817
+step 6600 training  1 test  0.9846
+step 6700 training  0.98 test  0.9862
+step 6800 training  1 test  0.9848
+step 6900 training  1 test  0.9866
+step 7000 training  1 test  0.9848
+step 7100 training  1 test  0.9846
+step 7200 training  1 test  0.9855
+step 7300 training  0.96 test  0.9862
+step 7400 training  1 test  0.9852
+step 7500 training  1 test  0.9878
+step 7600 training  1 test  0.9862
+step 7700 training  0.98 test  0.9878
+step 7800 training  0.98 test  0.9865
+step 7900 training  1 test  0.9864
+step 8000 training  0.98 test  0.9872
+step 8100 training  1 test  0.9874
+step 8200 training  0.98 test  0.9879
+step 8300 training  1 test  0.9866
+step 8400 training  1 test  0.9859
+step 8500 training  1 test  0.9868
+step 8600 training  0.96 test  0.9864
+step 8700 training  1 test  0.9878
+step 8800 training  0.98 test  0.988
+step 8900 training  1 test  0.9882
+step 9000 training  1 test  0.988
+step 9100 training  1 test  0.9875
+step 9200 training  0.98 test  0.9889
+step 9300 training  0.98 test  0.9895
+step 9400 training  1 test  0.989
+step 9500 training  1 test  0.9864
+step 9600 training  1 test  0.9879
+step 9700 training  1 test  0.9889
+step 9800 training  1 test  0.9892
+step 9900 training  1 test  0.9898
+step 10000 training  0.98 test  0.9895
+step 10100 training  1 test  0.9882
+step 10200 training  1 test  0.9889
+step 10300 training  1 test  0.9879
+step 10400 training  1 test  0.9887
+step 10500 training  1 test  0.9895
+step 10600 training  0.98 test  0.989
+step 10700 training  1 test  0.9903
+step 10800 training  1 test  0.9902
+step 10900 training  1 test  0.9889
+step 11000 training  1 test  0.989
+step 11100 training  1 test  0.9897
+step 11200 training  1 test  0.9889
+step 11300 training  0.98 test  0.9896
+step 11400 training  0.98 test  0.9889
+step 11500 training  1 test  0.9897
+step 11600 training  0.98 test  0.9899
+step 11700 training  1 test  0.9886
+step 11800 training  1 test  0.9902
+step 11900 training  0.98 test  0.9902
+step 12000 training  1 test  0.9895
+step 12100 training  1 test  0.9896
+step 12200 training  1 test  0.9899
+step 12300 training  1 test  0.9898
+step 12400 training  0.96 test  0.9894
+step 12500 training  0.98 test  0.9894
+step 12600 training  1 test  0.9901
+step 12700 training  1 test  0.9889
+step 12800 training  1 test  0.9891
+step 12900 training  1 test  0.9885
+step 13000 training  0.98 test  0.9906
+step 13100 training  0.98 test  0.9905
+step 13200 training  1 test  0.9903
+step 13300 training  1 test  0.9901
+step 13400 training  1 test  0.9899
+step 13500 training  1 test  0.9901
+step 13600 training  1 test  0.9899
+step 13700 training  0.98 test  0.9908
+step 13800 training  1 test  0.9895
+step 13900 training  1 test  0.9901
+step 14000 training  0.98 test  0.9889
+step 14100 training  1 test  0.9889
+step 14200 training  1 test  0.9894
+step 14300 training  1 test  0.9905
+step 14400 training  1 test  0.9904
+step 14500 training  0.96 test  0.9904
+step 14600 training  1 test  0.9904
+step 14700 training  1 test  0.9912
+step 14800 training  0.98 test  0.9905
+step 14900 training  1 test  0.9903
+step 15000 training  1 test  0.9906
+step 15100 training  1 test  0.991
+step 15200 training  0.98 test  0.9906
+step 15300 training  1 test  0.9898
+step 15400 training  1 test  0.9891
+step 15500 training  1 test  0.9912
+step 15600 training  1 test  0.9905
+step 15700 training  1 test  0.9898
+step 15800 training  1 test  0.9901
+step 15900 training  1 test  0.9907
+step 16000 training  1 test  0.9906
+step 16100 training  1 test  0.9908
+step 16200 training  1 test  0.9907
+step 16300 training  0.98 test  0.9908
+step 16400 training  1 test  0.9907
+step 16500 training  1 test  0.9915
+step 16600 training  1 test  0.9907
+step 16700 training  1 test  0.9911
+step 16800 training  1 test  0.9909
+step 16900 training  1 test  0.9901
+step 17000 training  1 test  0.9906
+step 17100 training  0.98 test  0.9902
+step 17200 training  1 test  0.9916
+step 17300 training  1 test  0.9907
+step 17400 training  1 test  0.9903
+step 17500 training  1 test  0.9908
+step 17600 training  1 test  0.9905
+step 17700 training  0.98 test  0.9918
+step 17800 training  1 test  0.9911
+step 17900 training  1 test  0.9896
+step 18000 training  1 test  0.9915
+step 18100 training  1 test  0.9909
+step 18200 training  1 test  0.9911
+step 18300 training  1 test  0.9894
+step 18400 training  1 test  0.9908
+step 18500 training  1 test  0.9918
+step 18600 training  1 test  0.9922
+step 18700 training  1 test  0.9905
+step 18800 training  1 test  0.9903
+step 18900 training  1 test  0.9913
+step 19000 training  1 test  0.9911
+step 19100 training  1 test  0.9906
+step 19200 training  0.98 test  0.9899
+step 19300 training  0.98 test  0.9906
+step 19400 training  1 test  0.9908
+step 19500 training  1 test  0.991
+step 19600 training  1 test  0.9911
+step 19700 training  1 test  0.9911
+step 19800 training  0.98 test  0.9903
+step 19900 training  1 test  0.9907
+step 20000 training  1 test  0.9909
+step 20100 training  1 test  0.9917
+step 20200 training  1 test  0.9907
+step 20300 training  1 test  0.9906
+step 20400 training  1 test  0.9921
+step 20500 training  1 test  0.9904
+step 20600 training  1 test  0.9914
+step 20700 training  1 test  0.9913
+step 20800 training  0.98 test  0.9915
+step 20900 training  1 test  0.9917
+step 21000 training  1 test  0.9913
+step 21100 training  0.98 test  0.9921
+step 21200 training  1 test  0.9918
+step 21300 training  0.98 test  0.9919
+step 21400 training  1 test  0.9916
+step 21500 training  1 test  0.9928
+step 21600 training  0.98 test  0.9913
+step 21700 training  1 test  0.9918
+step 21800 training  1 test  0.9929
+step 21900 training  1 test  0.9918
+step 22000 training  0.98 test  0.9916
+step 22100 training  1 test  0.9917
+step 22200 training  1 test  0.9917
+step 22300 training  1 test  0.992
+step 22400 training  1 test  0.9921
+step 22500 training  1 test  0.9915
+step 22600 training  1 test  0.9922
+step 22700 training  1 test  0.9926
+step 22800 training  1 test  0.9927
+step 22900 training  1 test  0.9924
+step 23000 training  1 test  0.9915
+step 23100 training  1 test  0.9923
+step 23200 training  1 test  0.9908
+step 23300 training  1 test  0.9912
+step 23400 training  0.98 test  0.9918
+step 23500 training  1 test  0.992
+step 23600 training  1 test  0.9915
+step 23700 training  1 test  0.9915
+step 23800 training  1 test  0.9913
+step 23900 training  1 test  0.9925
+step 24000 training  1 test  0.9918
+step 24100 training  1 test  0.9924
+step 24200 training  1 test  0.992
+step 24300 training  1 test  0.9925
+step 24400 training  1 test  0.993
+step 24500 training  1 test  0.9927
+step 24600 training  1 test  0.9912
+step 24700 training  1 test  0.9919
+step 24800 training  1 test  0.9927
+step 24900 training  1 test  0.9918
+step 25000 training  1 test  0.9915
+step 25100 training  1 test  0.9913
+step 25200 training  1 test  0.9914
+step 25300 training  1 test  0.9921
+step 25400 training  1 test  0.9925
+step 25500 training  1 test  0.9924
+step 25600 training  1 test  0.9922
+step 25700 training  1 test  0.9911
+step 25800 training  1 test  0.9922
+step 25900 training  1 test  0.9929
+step 26000 training  1 test  0.9923
+step 26100 training  1 test  0.9931
+step 26200 training  1 test  0.9926
+step 26300 training  1 test  0.9927
+step 26400 training  1 test  0.9933
+step 26500 training  1 test  0.9928
+step 26600 training  1 test  0.9921
+step 26700 training  1 test  0.9922
+step 26800 training  1 test  0.9923
+step 26900 training  1 test  0.9928
+step 27000 training  1 test  0.993
+step 27100 training  1 test  0.9926
+step 27200 training  1 test  0.9922
+step 27300 training  1 test  0.992
+step 27400 training  1 test  0.9926
+step 27500 training  1 test  0.9917
+step 27600 training  1 test  0.9921
+step 27700 training  1 test  0.992
+step 27800 training  0.98 test  0.9911
+step 27900 training  1 test  0.9925
+step 28000 training  1 test  0.992
+step 28100 training  1 test  0.99
+step 28200 training  1 test  0.9922
+step 28300 training  1 test  0.9922
+step 28400 training  1 test  0.9914
+step 28500 training  0.98 test  0.9918
+step 28600 training  1 test  0.9924
+step 28700 training  1 test  0.9922
+step 28800 training  1 test  0.9922
+step 28900 training  1 test  0.9922
+step 29000 training  1 test  0.9918
+step 29100 training  1 test  0.9923
+step 29200 training  1 test  0.9927
+step 29300 training  1 test  0.9913
+step 29400 training  1 test  0.9921
+step 29500 training  1 test  0.9918
+step 29600 training  1 test  0.992
+step 29700 training  1 test  0.9922
+step 29800 training  1 test  0.9922
+step 29900 training  1 test  0.9921
+step 30000 training  1 test  0.992
+step 30100 training  1 test  0.9913
+step 30200 training  1 test  0.9926
+step 30300 training  1 test  0.9913
+step 30400 training  1 test  0.9915
+step 30500 training  1 test  0.9919
+step 30600 training  1 test  0.9923
+step 30700 training  1 test  0.991
+step 30800 training  1 test  0.9916
+step 30900 training  1 test  0.9922
+step 31000 training  1 test  0.9918
+step 31100 training  1 test  0.9919
+step 31200 training  1 test  0.9927
+step 31300 training  1 test  0.9932
+step 31400 training  1 test  0.992
+step 31500 training  1 test  0.9922
+step 31600 training  1 test  0.9922
+step 31700 training  1 test  0.9933
+step 31800 training  1 test  0.9927
+step 31900 training  1 test  0.9926
+step 32000 training  1 test  0.9927
+step 32100 training  1 test  0.9923
+step 32200 training  1 test  0.9919
+step 32300 training  1 test  0.9917
+step 32400 training  1 test  0.9921
+step 32500 training  0.98 test  0.9934
+step 32600 training  1 test  0.993
+step 32700 training  1 test  0.9931
+step 32800 training  1 test  0.9921
+step 32900 training  0.98 test  0.9933
+step 33000 training  1 test  0.9934
+step 33100 training  1 test  0.9927
+step 33200 training  1 test  0.991
+step 33300 training  1 test  0.9917
+step 33400 training  1 test  0.9917
+step 33500 training  1 test  0.9924
+step 33600 training  1 test  0.9926
+step 33700 training  1 test  0.993
+step 33800 training  1 test  0.9926
+step 33900 training  1 test  0.993
+step 34000 training  1 test  0.9918
+step 34100 training  1 test  0.9927
+step 34200 training  1 test  0.9923
+step 34300 training  1 test  0.9912
+step 34400 training  1 test  0.9907
+step 34500 training  1 test  0.9919
+step 34600 training  1 test  0.9925
+step 34700 training  1 test  0.9924
+step 34800 training  1 test  0.992
+step 34900 training  1 test  0.9922
+step 35000 training  1 test  0.9925
+step 35100 training  1 test  0.9921
+step 35200 training  1 test  0.9911
+step 35300 training  1 test  0.9921
+step 35400 training  1 test  0.9922
+step 35500 training  1 test  0.9925
+step 35600 training  1 test  0.9921
+step 35700 training  1 test  0.9932
+step 35800 training  1 test  0.9929
+step 35900 training  1 test  0.9929
+step 36000 training  1 test  0.9913
+step 36100 training  1 test  0.9923
+step 36200 training  1 test  0.9913
+step 36300 training  1 test  0.9926
+step 36400 training  1 test  0.9916
+step 36500 training  1 test  0.9934
+step 36600 training  1 test  0.993
+step 36700 training  1 test  0.9933
+step 36800 training  1 test  0.9926
+step 36900 training  1 test  0.9925
+step 37000 training  1 test  0.9925
+step 37100 training  1 test  0.9925
+step 37200 training  1 test  0.9929
+step 37300 training  1 test  0.9921
+step 37400 training  0.98 test  0.9931
+step 37500 training  1 test  0.9931
+step 37600 training  1 test  0.9927
+step 37700 training  1 test  0.993
+step 37800 training  1 test  0.9931
+step 37900 training  1 test  0.9927
+step 38000 training  1 test  0.9929
+step 38100 training  1 test  0.9923
+step 38200 training  1 test  0.9922
+step 38300 training  1 test  0.9928
+step 38400 training  1 test  0.9921
+step 38500 training  1 test  0.9931
+step 38600 training  0.98 test  0.9932
+step 38700 training  1 test  0.9937
+step 38800 training  1 test  0.9936
+step 38900 training  1 test  0.9926
+step 39000 training  1 test  0.9922
+step 39100 training  1 test  0.9925
+step 39200 training  1 test  0.9923
+step 39300 training  1 test  0.9923
+step 39400 training  1 test  0.9911
+step 39500 training  1 test  0.9931
+step 39600 training  1 test  0.9927
+step 39700 training  1 test  0.9928
+step 39800 training  1 test  0.9928
+step 39900 training  1 test  0.9935
+step 40000 training  1 test  0.9932
+test  0.9931
 
 Command: mnist_softmax_dg.py --drop_grads_prob=0.5 --out_file=results_0.5.txt --batches=20000
-step 0, training accuracy 0.1, test accuracy 0.0947
-step 100, training accuracy 0.72, test accuracy 0.7605
-step 200, training accuracy 0.82, test accuracy 0.8674
-step 300, training accuracy 0.82, test accuracy 0.9047
-step 400, training accuracy 0.88, test accuracy 0.9166
-step 500, training accuracy 0.9, test accuracy 0.9306
-step 600, training accuracy 0.92, test accuracy 0.9351
-step 700, training accuracy 0.92, test accuracy 0.9354
-step 800, training accuracy 0.88, test accuracy 0.9393
-step 900, training accuracy 0.96, test accuracy 0.9412
-step 1000, training accuracy 0.92, test accuracy 0.9505
-step 1100, training accuracy 0.94, test accuracy 0.9496
-step 1200, training accuracy 0.94, test accuracy 0.9543
-step 1300, training accuracy 0.96, test accuracy 0.9554
-step 1400, training accuracy 0.96, test accuracy 0.9584
-step 1500, training accuracy 1, test accuracy 0.9616
-step 1600, training accuracy 0.98, test accuracy 0.9563
-step 1700, training accuracy 0.94, test accuracy 0.9632
-step 1800, training accuracy 0.96, test accuracy 0.9638
-step 1900, training accuracy 0.98, test accuracy 0.9636
-step 2000, training accuracy 0.92, test accuracy 0.9628
-step 2100, training accuracy 1, test accuracy 0.9671
-step 2200, training accuracy 0.98, test accuracy 0.9677
-step 2300, training accuracy 0.94, test accuracy 0.9711
-step 2400, training accuracy 1, test accuracy 0.9732
-step 2500, training accuracy 0.98, test accuracy 0.971
-step 2600, training accuracy 0.94, test accuracy 0.973
-step 2700, training accuracy 0.96, test accuracy 0.9741
-step 2800, training accuracy 0.96, test accuracy 0.9721
-step 2900, training accuracy 1, test accuracy 0.9715
-step 3000, training accuracy 1, test accuracy 0.9734
-step 3100, training accuracy 0.92, test accuracy 0.9746
-step 3200, training accuracy 1, test accuracy 0.9733
-step 3300, training accuracy 1, test accuracy 0.9768
-step 3400, training accuracy 0.96, test accuracy 0.9766
-step 3500, training accuracy 0.98, test accuracy 0.9765
-step 3600, training accuracy 0.98, test accuracy 0.9782
-step 3700, training accuracy 1, test accuracy 0.9767
-step 3800, training accuracy 1, test accuracy 0.9777
-step 3900, training accuracy 1, test accuracy 0.9779
-step 4000, training accuracy 0.98, test accuracy 0.9796
-step 4100, training accuracy 1, test accuracy 0.9794
-step 4200, training accuracy 0.96, test accuracy 0.98
-step 4300, training accuracy 1, test accuracy 0.9804
-step 4400, training accuracy 0.96, test accuracy 0.98
-step 4500, training accuracy 0.96, test accuracy 0.9807
-step 4600, training accuracy 0.94, test accuracy 0.9816
-step 4700, training accuracy 1, test accuracy 0.9817
-step 4800, training accuracy 0.98, test accuracy 0.9806
-step 4900, training accuracy 0.98, test accuracy 0.9799
-step 5000, training accuracy 1, test accuracy 0.9781
-step 5100, training accuracy 1, test accuracy 0.9823
-step 5200, training accuracy 0.98, test accuracy 0.9822
-step 5300, training accuracy 0.98, test accuracy 0.9822
-step 5400, training accuracy 0.94, test accuracy 0.9837
-step 5500, training accuracy 0.98, test accuracy 0.9832
-step 5600, training accuracy 0.96, test accuracy 0.9844
-step 5700, training accuracy 1, test accuracy 0.9842
-step 5800, training accuracy 0.96, test accuracy 0.9832
-step 5900, training accuracy 0.98, test accuracy 0.984
-step 6000, training accuracy 1, test accuracy 0.9824
-step 6100, training accuracy 1, test accuracy 0.9854
-step 6200, training accuracy 0.96, test accuracy 0.984
-step 6300, training accuracy 0.98, test accuracy 0.9846
-step 6400, training accuracy 1, test accuracy 0.9825
-step 6500, training accuracy 1, test accuracy 0.9846
-step 6600, training accuracy 1, test accuracy 0.9841
-step 6700, training accuracy 1, test accuracy 0.9848
-step 6800, training accuracy 0.98, test accuracy 0.9861
-step 6900, training accuracy 1, test accuracy 0.9865
-step 7000, training accuracy 1, test accuracy 0.986
-step 7100, training accuracy 1, test accuracy 0.9859
-step 7200, training accuracy 0.96, test accuracy 0.9846
-step 7300, training accuracy 1, test accuracy 0.9853
-step 7400, training accuracy 0.98, test accuracy 0.9852
-step 7500, training accuracy 0.98, test accuracy 0.9858
-step 7600, training accuracy 1, test accuracy 0.9865
-step 7700, training accuracy 1, test accuracy 0.9851
-step 7800, training accuracy 0.98, test accuracy 0.9858
-step 7900, training accuracy 0.96, test accuracy 0.9869
-step 8000, training accuracy 0.96, test accuracy 0.9881
-step 8100, training accuracy 0.96, test accuracy 0.9876
-step 8200, training accuracy 1, test accuracy 0.9855
-step 8300, training accuracy 1, test accuracy 0.9862
-step 8400, training accuracy 1, test accuracy 0.9877
-step 8500, training accuracy 1, test accuracy 0.9884
-step 8600, training accuracy 0.98, test accuracy 0.9848
-step 8700, training accuracy 0.98, test accuracy 0.9863
-step 8800, training accuracy 1, test accuracy 0.9861
-step 8900, training accuracy 1, test accuracy 0.988
-step 9000, training accuracy 0.98, test accuracy 0.9877
-step 9100, training accuracy 0.96, test accuracy 0.9889
-step 9200, training accuracy 1, test accuracy 0.987
-step 9300, training accuracy 1, test accuracy 0.9881
-step 9400, training accuracy 1, test accuracy 0.9872
-step 9500, training accuracy 1, test accuracy 0.988
-step 9600, training accuracy 1, test accuracy 0.9892
-step 9700, training accuracy 0.98, test accuracy 0.9877
-step 9800, training accuracy 1, test accuracy 0.987
-step 9900, training accuracy 1, test accuracy 0.9863
-step 10000, training accuracy 1, test accuracy 0.9881
-step 10100, training accuracy 1, test accuracy 0.9885
-step 10200, training accuracy 1, test accuracy 0.9876
-step 10300, training accuracy 1, test accuracy 0.9871
-step 10400, training accuracy 1, test accuracy 0.9884
-step 10500, training accuracy 0.98, test accuracy 0.9889
-step 10600, training accuracy 1, test accuracy 0.9889
-step 10700, training accuracy 1, test accuracy 0.9881
-step 10800, training accuracy 0.98, test accuracy 0.989
-step 10900, training accuracy 1, test accuracy 0.9892
-step 11000, training accuracy 1, test accuracy 0.9874
-step 11100, training accuracy 1, test accuracy 0.9874
-step 11200, training accuracy 1, test accuracy 0.9878
-step 11300, training accuracy 0.98, test accuracy 0.9893
-step 11400, training accuracy 1, test accuracy 0.9882
-step 11500, training accuracy 1, test accuracy 0.9889
-step 11600, training accuracy 0.96, test accuracy 0.9897
-step 11700, training accuracy 1, test accuracy 0.9886
-step 11800, training accuracy 0.96, test accuracy 0.9876
-step 11900, training accuracy 1, test accuracy 0.9887
-step 12000, training accuracy 1, test accuracy 0.9888
-step 12100, training accuracy 1, test accuracy 0.9897
-step 12200, training accuracy 1, test accuracy 0.9903
-step 12300, training accuracy 1, test accuracy 0.9898
-step 12400, training accuracy 1, test accuracy 0.988
-step 12500, training accuracy 1, test accuracy 0.9886
-step 12600, training accuracy 1, test accuracy 0.9894
-step 12700, training accuracy 1, test accuracy 0.9889
-step 12800, training accuracy 1, test accuracy 0.9903
-step 12900, training accuracy 1, test accuracy 0.99
-step 13000, training accuracy 1, test accuracy 0.9896
-step 13100, training accuracy 1, test accuracy 0.99
-step 13200, training accuracy 0.98, test accuracy 0.9903
-step 13300, training accuracy 1, test accuracy 0.9903
-step 13400, training accuracy 1, test accuracy 0.9909
-step 13500, training accuracy 0.98, test accuracy 0.9916
-step 13600, training accuracy 0.98, test accuracy 0.9896
-step 13700, training accuracy 1, test accuracy 0.9903
-step 13800, training accuracy 1, test accuracy 0.9906
-step 13900, training accuracy 1, test accuracy 0.9908
-step 14000, training accuracy 1, test accuracy 0.99
-step 14100, training accuracy 1, test accuracy 0.9905
-step 14200, training accuracy 0.96, test accuracy 0.9908
-step 14300, training accuracy 1, test accuracy 0.9911
-step 14400, training accuracy 1, test accuracy 0.9905
-step 14500, training accuracy 1, test accuracy 0.9902
-step 14600, training accuracy 0.98, test accuracy 0.9906
-step 14700, training accuracy 1, test accuracy 0.9912
-step 14800, training accuracy 1, test accuracy 0.9907
-step 14900, training accuracy 1, test accuracy 0.9913
-step 15000, training accuracy 0.98, test accuracy 0.9893
-step 15100, training accuracy 0.98, test accuracy 0.9909
-step 15200, training accuracy 0.98, test accuracy 0.9914
-step 15300, training accuracy 1, test accuracy 0.991
-step 15400, training accuracy 1, test accuracy 0.9897
-step 15500, training accuracy 1, test accuracy 0.9909
-step 15600, training accuracy 1, test accuracy 0.9904
-step 15700, training accuracy 1, test accuracy 0.9903
-step 15800, training accuracy 0.98, test accuracy 0.9913
-step 15900, training accuracy 1, test accuracy 0.9875
-step 16000, training accuracy 1, test accuracy 0.9907
-step 16100, training accuracy 1, test accuracy 0.9903
-step 16200, training accuracy 1, test accuracy 0.9912
-step 16300, training accuracy 1, test accuracy 0.9918
-step 16400, training accuracy 0.96, test accuracy 0.9906
-step 16500, training accuracy 0.98, test accuracy 0.9904
-step 16600, training accuracy 1, test accuracy 0.991
-step 16700, training accuracy 1, test accuracy 0.9912
-step 16800, training accuracy 1, test accuracy 0.9887
-step 16900, training accuracy 1, test accuracy 0.9902
-step 17000, training accuracy 0.98, test accuracy 0.9914
-step 17100, training accuracy 1, test accuracy 0.9895
-step 17200, training accuracy 0.98, test accuracy 0.9906
-step 17300, training accuracy 1, test accuracy 0.9905
-step 17400, training accuracy 1, test accuracy 0.99
-step 17500, training accuracy 1, test accuracy 0.9893
-step 17600, training accuracy 1, test accuracy 0.9913
-step 17700, training accuracy 1, test accuracy 0.9911
-step 17800, training accuracy 1, test accuracy 0.9903
-step 17900, training accuracy 0.98, test accuracy 0.9904
-step 18000, training accuracy 1, test accuracy 0.9917
-step 18100, training accuracy 1, test accuracy 0.9906
-step 18200, training accuracy 0.98, test accuracy 0.9922
-step 18300, training accuracy 0.98, test accuracy 0.9902
-step 18400, training accuracy 1, test accuracy 0.9899
-step 18500, training accuracy 1, test accuracy 0.9895
-step 18600, training accuracy 1, test accuracy 0.991
-step 18700, training accuracy 0.98, test accuracy 0.9914
-step 18800, training accuracy 1, test accuracy 0.9904
-step 18900, training accuracy 1, test accuracy 0.9911
-step 19000, training accuracy 1, test accuracy 0.9903
-step 19100, training accuracy 1, test accuracy 0.9914
-step 19200, training accuracy 1, test accuracy 0.9911
-step 19300, training accuracy 1, test accuracy 0.9916
-step 19400, training accuracy 1, test accuracy 0.9917
-step 19500, training accuracy 1, test accuracy 0.9913
-step 19600, training accuracy 1, test accuracy 0.9916
-step 19700, training accuracy 1, test accuracy 0.991
-step 19800, training accuracy 1, test accuracy 0.9904
-step 19900, training accuracy 1, test accuracy 0.9909
-step 20000, training accuracy 1, test accuracy 0.9915
-test accuracy 0.9914
+step 0 training  0.1 test  0.0947
+step 100 training  0.72 test  0.7605
+step 200 training  0.82 test  0.8674
+step 300 training  0.82 test  0.9047
+step 400 training  0.88 test  0.9166
+step 500 training  0.9 test  0.9306
+step 600 training  0.92 test  0.9351
+step 700 training  0.92 test  0.9354
+step 800 training  0.88 test  0.9393
+step 900 training  0.96 test  0.9412
+step 1000 training  0.92 test  0.9505
+step 1100 training  0.94 test  0.9496
+step 1200 training  0.94 test  0.9543
+step 1300 training  0.96 test  0.9554
+step 1400 training  0.96 test  0.9584
+step 1500 training  1 test  0.9616
+step 1600 training  0.98 test  0.9563
+step 1700 training  0.94 test  0.9632
+step 1800 training  0.96 test  0.9638
+step 1900 training  0.98 test  0.9636
+step 2000 training  0.92 test  0.9628
+step 2100 training  1 test  0.9671
+step 2200 training  0.98 test  0.9677
+step 2300 training  0.94 test  0.9711
+step 2400 training  1 test  0.9732
+step 2500 training  0.98 test  0.971
+step 2600 training  0.94 test  0.973
+step 2700 training  0.96 test  0.9741
+step 2800 training  0.96 test  0.9721
+step 2900 training  1 test  0.9715
+step 3000 training  1 test  0.9734
+step 3100 training  0.92 test  0.9746
+step 3200 training  1 test  0.9733
+step 3300 training  1 test  0.9768
+step 3400 training  0.96 test  0.9766
+step 3500 training  0.98 test  0.9765
+step 3600 training  0.98 test  0.9782
+step 3700 training  1 test  0.9767
+step 3800 training  1 test  0.9777
+step 3900 training  1 test  0.9779
+step 4000 training  0.98 test  0.9796
+step 4100 training  1 test  0.9794
+step 4200 training  0.96 test  0.98
+step 4300 training  1 test  0.9804
+step 4400 training  0.96 test  0.98
+step 4500 training  0.96 test  0.9807
+step 4600 training  0.94 test  0.9816
+step 4700 training  1 test  0.9817
+step 4800 training  0.98 test  0.9806
+step 4900 training  0.98 test  0.9799
+step 5000 training  1 test  0.9781
+step 5100 training  1 test  0.9823
+step 5200 training  0.98 test  0.9822
+step 5300 training  0.98 test  0.9822
+step 5400 training  0.94 test  0.9837
+step 5500 training  0.98 test  0.9832
+step 5600 training  0.96 test  0.9844
+step 5700 training  1 test  0.9842
+step 5800 training  0.96 test  0.9832
+step 5900 training  0.98 test  0.984
+step 6000 training  1 test  0.9824
+step 6100 training  1 test  0.9854
+step 6200 training  0.96 test  0.984
+step 6300 training  0.98 test  0.9846
+step 6400 training  1 test  0.9825
+step 6500 training  1 test  0.9846
+step 6600 training  1 test  0.9841
+step 6700 training  1 test  0.9848
+step 6800 training  0.98 test  0.9861
+step 6900 training  1 test  0.9865
+step 7000 training  1 test  0.986
+step 7100 training  1 test  0.9859
+step 7200 training  0.96 test  0.9846
+step 7300 training  1 test  0.9853
+step 7400 training  0.98 test  0.9852
+step 7500 training  0.98 test  0.9858
+step 7600 training  1 test  0.9865
+step 7700 training  1 test  0.9851
+step 7800 training  0.98 test  0.9858
+step 7900 training  0.96 test  0.9869
+step 8000 training  0.96 test  0.9881
+step 8100 training  0.96 test  0.9876
+step 8200 training  1 test  0.9855
+step 8300 training  1 test  0.9862
+step 8400 training  1 test  0.9877
+step 8500 training  1 test  0.9884
+step 8600 training  0.98 test  0.9848
+step 8700 training  0.98 test  0.9863
+step 8800 training  1 test  0.9861
+step 8900 training  1 test  0.988
+step 9000 training  0.98 test  0.9877
+step 9100 training  0.96 test  0.9889
+step 9200 training  1 test  0.987
+step 9300 training  1 test  0.9881
+step 9400 training  1 test  0.9872
+step 9500 training  1 test  0.988
+step 9600 training  1 test  0.9892
+step 9700 training  0.98 test  0.9877
+step 9800 training  1 test  0.987
+step 9900 training  1 test  0.9863
+step 10000 training  1 test  0.9881
+step 10100 training  1 test  0.9885
+step 10200 training  1 test  0.9876
+step 10300 training  1 test  0.9871
+step 10400 training  1 test  0.9884
+step 10500 training  0.98 test  0.9889
+step 10600 training  1 test  0.9889
+step 10700 training  1 test  0.9881
+step 10800 training  0.98 test  0.989
+step 10900 training  1 test  0.9892
+step 11000 training  1 test  0.9874
+step 11100 training  1 test  0.9874
+step 11200 training  1 test  0.9878
+step 11300 training  0.98 test  0.9893
+step 11400 training  1 test  0.9882
+step 11500 training  1 test  0.9889
+step 11600 training  0.96 test  0.9897
+step 11700 training  1 test  0.9886
+step 11800 training  0.96 test  0.9876
+step 11900 training  1 test  0.9887
+step 12000 training  1 test  0.9888
+step 12100 training  1 test  0.9897
+step 12200 training  1 test  0.9903
+step 12300 training  1 test  0.9898
+step 12400 training  1 test  0.988
+step 12500 training  1 test  0.9886
+step 12600 training  1 test  0.9894
+step 12700 training  1 test  0.9889
+step 12800 training  1 test  0.9903
+step 12900 training  1 test  0.99
+step 13000 training  1 test  0.9896
+step 13100 training  1 test  0.99
+step 13200 training  0.98 test  0.9903
+step 13300 training  1 test  0.9903
+step 13400 training  1 test  0.9909
+step 13500 training  0.98 test  0.9916
+step 13600 training  0.98 test  0.9896
+step 13700 training  1 test  0.9903
+step 13800 training  1 test  0.9906
+step 13900 training  1 test  0.9908
+step 14000 training  1 test  0.99
+step 14100 training  1 test  0.9905
+step 14200 training  0.96 test  0.9908
+step 14300 training  1 test  0.9911
+step 14400 training  1 test  0.9905
+step 14500 training  1 test  0.9902
+step 14600 training  0.98 test  0.9906
+step 14700 training  1 test  0.9912
+step 14800 training  1 test  0.9907
+step 14900 training  1 test  0.9913
+step 15000 training  0.98 test  0.9893
+step 15100 training  0.98 test  0.9909
+step 15200 training  0.98 test  0.9914
+step 15300 training  1 test  0.991
+step 15400 training  1 test  0.9897
+step 15500 training  1 test  0.9909
+step 15600 training  1 test  0.9904
+step 15700 training  1 test  0.9903
+step 15800 training  0.98 test  0.9913
+step 15900 training  1 test  0.9875
+step 16000 training  1 test  0.9907
+step 16100 training  1 test  0.9903
+step 16200 training  1 test  0.9912
+step 16300 training  1 test  0.9918
+step 16400 training  0.96 test  0.9906
+step 16500 training  0.98 test  0.9904
+step 16600 training  1 test  0.991
+step 16700 training  1 test  0.9912
+step 16800 training  1 test  0.9887
+step 16900 training  1 test  0.9902
+step 17000 training  0.98 test  0.9914
+step 17100 training  1 test  0.9895
+step 17200 training  0.98 test  0.9906
+step 17300 training  1 test  0.9905
+step 17400 training  1 test  0.99
+step 17500 training  1 test  0.9893
+step 17600 training  1 test  0.9913
+step 17700 training  1 test  0.9911
+step 17800 training  1 test  0.9903
+step 17900 training  0.98 test  0.9904
+step 18000 training  1 test  0.9917
+step 18100 training  1 test  0.9906
+step 18200 training  0.98 test  0.9922
+step 18300 training  0.98 test  0.9902
+step 18400 training  1 test  0.9899
+step 18500 training  1 test  0.9895
+step 18600 training  1 test  0.991
+step 18700 training  0.98 test  0.9914
+step 18800 training  1 test  0.9904
+step 18900 training  1 test  0.9911
+step 19000 training  1 test  0.9903
+step 19100 training  1 test  0.9914
+step 19200 training  1 test  0.9911
+step 19300 training  1 test  0.9916
+step 19400 training  1 test  0.9917
+step 19500 training  1 test  0.9913
+step 19600 training  1 test  0.9916
+step 19700 training  1 test  0.991
+step 19800 training  1 test  0.9904
+step 19900 training  1 test  0.9909
+step 20000 training  1 test  0.9915
+test  0.9914
 
 Command: mnist_softmax_dg.py --drop_grads_prob=0.5 --out_file=results_0.5.txt --batches=20000
-step 0, training accuracy 0.06, test accuracy 0.065
-step 100, training accuracy 0.74, test accuracy 0.8028
-step 200, training accuracy 0.88, test accuracy 0.8863
-step 300, training accuracy 0.82, test accuracy 0.9064
-step 400, training accuracy 0.98, test accuracy 0.9108
-step 500, training accuracy 0.92, test accuracy 0.932
-step 600, training accuracy 0.82, test accuracy 0.9395
-step 700, training accuracy 0.9, test accuracy 0.944
-step 800, training accuracy 0.94, test accuracy 0.9484
-step 900, training accuracy 0.96, test accuracy 0.9511
-step 1000, training accuracy 0.94, test accuracy 0.9563
-step 1100, training accuracy 0.92, test accuracy 0.9576
-step 1200, training accuracy 0.98, test accuracy 0.9594
-step 1300, training accuracy 0.98, test accuracy 0.9616
-step 1400, training accuracy 0.96, test accuracy 0.9646
-step 1500, training accuracy 0.94, test accuracy 0.9644
-step 1600, training accuracy 0.98, test accuracy 0.9647
-step 1700, training accuracy 0.96, test accuracy 0.964
-step 1800, training accuracy 0.98, test accuracy 0.9683
-step 1900, training accuracy 1, test accuracy 0.9689
-step 2000, training accuracy 1, test accuracy 0.9655
-step 2100, training accuracy 0.94, test accuracy 0.9713
-step 2200, training accuracy 0.96, test accuracy 0.9712
-step 2300, training accuracy 1, test accuracy 0.9694
-step 2400, training accuracy 0.98, test accuracy 0.9729
-step 2500, training accuracy 0.96, test accuracy 0.9739
-step 2600, training accuracy 0.98, test accuracy 0.9745
-step 2700, training accuracy 1, test accuracy 0.9737
-step 2800, training accuracy 1, test accuracy 0.9743
-step 2900, training accuracy 0.96, test accuracy 0.9751
-step 3000, training accuracy 0.94, test accuracy 0.9753
-step 3100, training accuracy 1, test accuracy 0.9738
-step 3200, training accuracy 0.96, test accuracy 0.9776
-step 3300, training accuracy 0.98, test accuracy 0.9758
-step 3400, training accuracy 0.96, test accuracy 0.9783
-step 3500, training accuracy 0.98, test accuracy 0.977
-step 3600, training accuracy 0.94, test accuracy 0.9782
-step 3700, training accuracy 0.98, test accuracy 0.9766
-step 3800, training accuracy 1, test accuracy 0.9784
-step 3900, training accuracy 0.94, test accuracy 0.9798
-step 4000, training accuracy 0.98, test accuracy 0.9786
-step 4100, training accuracy 1, test accuracy 0.981
-step 4200, training accuracy 1, test accuracy 0.9804
-step 4300, training accuracy 1, test accuracy 0.9805
-step 4400, training accuracy 0.96, test accuracy 0.9804
-step 4500, training accuracy 0.98, test accuracy 0.9796
-step 4600, training accuracy 0.98, test accuracy 0.9811
-step 4700, training accuracy 0.96, test accuracy 0.9796
-step 4800, training accuracy 0.98, test accuracy 0.9807
-step 4900, training accuracy 0.96, test accuracy 0.9814
-step 5000, training accuracy 0.98, test accuracy 0.9828
-step 5100, training accuracy 0.96, test accuracy 0.9823
-step 5200, training accuracy 0.98, test accuracy 0.9833
-step 5300, training accuracy 0.98, test accuracy 0.9805
-step 5400, training accuracy 0.98, test accuracy 0.9841
-step 5500, training accuracy 1, test accuracy 0.9831
-step 5600, training accuracy 1, test accuracy 0.9832
-step 5700, training accuracy 1, test accuracy 0.9823
-step 5800, training accuracy 0.96, test accuracy 0.981
-step 5900, training accuracy 0.98, test accuracy 0.9813
-step 6000, training accuracy 1, test accuracy 0.9847
-step 6100, training accuracy 1, test accuracy 0.9841
-step 6200, training accuracy 0.96, test accuracy 0.9848
-step 6300, training accuracy 1, test accuracy 0.9847
-step 6400, training accuracy 0.98, test accuracy 0.9828
-step 6500, training accuracy 0.96, test accuracy 0.9851
-step 6600, training accuracy 0.98, test accuracy 0.9853
-step 6700, training accuracy 1, test accuracy 0.9847
-step 6800, training accuracy 0.98, test accuracy 0.9842
-step 6900, training accuracy 0.96, test accuracy 0.9845
-step 7000, training accuracy 0.98, test accuracy 0.9838
-step 7100, training accuracy 1, test accuracy 0.9852
-step 7200, training accuracy 1, test accuracy 0.9864
-step 7300, training accuracy 1, test accuracy 0.9841
-step 7400, training accuracy 0.98, test accuracy 0.9859
-step 7500, training accuracy 1, test accuracy 0.986
-step 7600, training accuracy 1, test accuracy 0.9869
-step 7700, training accuracy 1, test accuracy 0.987
-step 7800, training accuracy 1, test accuracy 0.9851
-step 7900, training accuracy 0.98, test accuracy 0.9864
-step 8000, training accuracy 1, test accuracy 0.9864
-step 8100, training accuracy 0.98, test accuracy 0.9854
-step 8200, training accuracy 1, test accuracy 0.9853
-step 8300, training accuracy 1, test accuracy 0.9861
-step 8400, training accuracy 0.96, test accuracy 0.9865
-step 8500, training accuracy 1, test accuracy 0.9842
-step 8600, training accuracy 1, test accuracy 0.9864
-step 8700, training accuracy 1, test accuracy 0.9875
-step 8800, training accuracy 1, test accuracy 0.9875
-step 8900, training accuracy 1, test accuracy 0.9878
-step 9000, training accuracy 1, test accuracy 0.9883
-step 9100, training accuracy 0.98, test accuracy 0.9874
-step 9200, training accuracy 1, test accuracy 0.9877
-step 9300, training accuracy 1, test accuracy 0.9869
-step 9400, training accuracy 0.96, test accuracy 0.9875
-step 9500, training accuracy 1, test accuracy 0.9867
-step 9600, training accuracy 1, test accuracy 0.9872
-step 9700, training accuracy 0.98, test accuracy 0.9874
-step 9800, training accuracy 1, test accuracy 0.9881
-step 9900, training accuracy 1, test accuracy 0.9877
-step 10000, training accuracy 1, test accuracy 0.9876
-step 10100, training accuracy 0.98, test accuracy 0.985
-step 10200, training accuracy 0.98, test accuracy 0.9889
-step 10300, training accuracy 0.98, test accuracy 0.9882
-step 10400, training accuracy 0.98, test accuracy 0.9892
-step 10500, training accuracy 0.98, test accuracy 0.9885
-step 10600, training accuracy 1, test accuracy 0.9881
-step 10700, training accuracy 1, test accuracy 0.9869
-step 10800, training accuracy 1, test accuracy 0.989
-step 10900, training accuracy 1, test accuracy 0.9887
-step 11000, training accuracy 1, test accuracy 0.9886
-step 11100, training accuracy 1, test accuracy 0.9891
-step 11200, training accuracy 1, test accuracy 0.9883
-step 11300, training accuracy 1, test accuracy 0.9891
-step 11400, training accuracy 1, test accuracy 0.9885
-step 11500, training accuracy 1, test accuracy 0.9894
-step 11600, training accuracy 0.98, test accuracy 0.9875
-step 11700, training accuracy 1, test accuracy 0.9887
-step 11800, training accuracy 1, test accuracy 0.9878
-step 11900, training accuracy 1, test accuracy 0.9876
-step 12000, training accuracy 1, test accuracy 0.9877
-step 12100, training accuracy 1, test accuracy 0.9876
-step 12200, training accuracy 1, test accuracy 0.9895
-step 12300, training accuracy 1, test accuracy 0.9898
-step 12400, training accuracy 1, test accuracy 0.9888
-step 12500, training accuracy 0.98, test accuracy 0.9895
-step 12600, training accuracy 1, test accuracy 0.9889
-step 12700, training accuracy 1, test accuracy 0.988
-step 12800, training accuracy 1, test accuracy 0.9899
-step 12900, training accuracy 1, test accuracy 0.9895
-step 13000, training accuracy 1, test accuracy 0.9889
-step 13100, training accuracy 1, test accuracy 0.9887
-step 13200, training accuracy 1, test accuracy 0.988
-step 13300, training accuracy 1, test accuracy 0.9902
-step 13400, training accuracy 1, test accuracy 0.9897
-step 13500, training accuracy 1, test accuracy 0.9892
-step 13600, training accuracy 1, test accuracy 0.9898
-step 13700, training accuracy 1, test accuracy 0.9896
-step 13800, training accuracy 0.98, test accuracy 0.989
-step 13900, training accuracy 0.98, test accuracy 0.989
-step 14000, training accuracy 1, test accuracy 0.9877
-step 14100, training accuracy 0.98, test accuracy 0.9894
-step 14200, training accuracy 1, test accuracy 0.9905
-step 14300, training accuracy 1, test accuracy 0.989
-step 14400, training accuracy 1, test accuracy 0.9904
-step 14500, training accuracy 1, test accuracy 0.9901
-step 14600, training accuracy 1, test accuracy 0.99
-step 14700, training accuracy 1, test accuracy 0.9893
-step 14800, training accuracy 1, test accuracy 0.9901
-step 14900, training accuracy 1, test accuracy 0.9906
-step 15000, training accuracy 0.98, test accuracy 0.99
-step 15100, training accuracy 0.96, test accuracy 0.9894
-step 15200, training accuracy 1, test accuracy 0.9896
-step 15300, training accuracy 0.98, test accuracy 0.9894
-step 15400, training accuracy 1, test accuracy 0.9905
-step 15500, training accuracy 1, test accuracy 0.991
-step 15600, training accuracy 1, test accuracy 0.9904
-step 15700, training accuracy 0.98, test accuracy 0.9902
-step 15800, training accuracy 1, test accuracy 0.9895
-step 15900, training accuracy 1, test accuracy 0.9897
-step 16000, training accuracy 0.98, test accuracy 0.9902
-step 16100, training accuracy 1, test accuracy 0.9894
-step 16200, training accuracy 0.98, test accuracy 0.9887
-step 16300, training accuracy 0.98, test accuracy 0.9896
-step 16400, training accuracy 1, test accuracy 0.9909
-step 16500, training accuracy 1, test accuracy 0.9901
-step 16600, training accuracy 1, test accuracy 0.9901
-step 16700, training accuracy 1, test accuracy 0.9903
-step 16800, training accuracy 1, test accuracy 0.9904
-step 16900, training accuracy 1, test accuracy 0.9901
-step 17000, training accuracy 1, test accuracy 0.9903
-step 17100, training accuracy 0.98, test accuracy 0.9902
-step 17200, training accuracy 1, test accuracy 0.9901
-step 17300, training accuracy 1, test accuracy 0.992
-step 17400, training accuracy 1, test accuracy 0.9897
-step 17500, training accuracy 1, test accuracy 0.9917
-step 17600, training accuracy 1, test accuracy 0.991
-step 17700, training accuracy 1, test accuracy 0.9905
-step 17800, training accuracy 1, test accuracy 0.991
-step 17900, training accuracy 1, test accuracy 0.9906
-step 18000, training accuracy 1, test accuracy 0.991
-step 18100, training accuracy 1, test accuracy 0.9903
-step 18200, training accuracy 1, test accuracy 0.991
-step 18300, training accuracy 1, test accuracy 0.9915
-step 18400, training accuracy 0.98, test accuracy 0.9912
-step 18500, training accuracy 1, test accuracy 0.9906
-step 18600, training accuracy 1, test accuracy 0.9899
-step 18700, training accuracy 1, test accuracy 0.9908
-step 18800, training accuracy 1, test accuracy 0.9905
+step 0 training  0.06 test  0.065
+step 100 training  0.74 test  0.8028
+step 200 training  0.88 test  0.8863
+step 300 training  0.82 test  0.9064
+step 400 training  0.98 test  0.9108
+step 500 training  0.92 test  0.932
+step 600 training  0.82 test  0.9395
+step 700 training  0.9 test  0.944
+step 800 training  0.94 test  0.9484
+step 900 training  0.96 test  0.9511
+step 1000 training  0.94 test  0.9563
+step 1100 training  0.92 test  0.9576
+step 1200 training  0.98 test  0.9594
+step 1300 training  0.98 test  0.9616
+step 1400 training  0.96 test  0.9646
+step 1500 training  0.94 test  0.9644
+step 1600 training  0.98 test  0.9647
+step 1700 training  0.96 test  0.964
+step 1800 training  0.98 test  0.9683
+step 1900 training  1 test  0.9689
+step 2000 training  1 test  0.9655
+step 2100 training  0.94 test  0.9713
+step 2200 training  0.96 test  0.9712
+step 2300 training  1 test  0.9694
+step 2400 training  0.98 test  0.9729
+step 2500 training  0.96 test  0.9739
+step 2600 training  0.98 test  0.9745
+step 2700 training  1 test  0.9737
+step 2800 training  1 test  0.9743
+step 2900 training  0.96 test  0.9751
+step 3000 training  0.94 test  0.9753
+step 3100 training  1 test  0.9738
+step 3200 training  0.96 test  0.9776
+step 3300 training  0.98 test  0.9758
+step 3400 training  0.96 test  0.9783
+step 3500 training  0.98 test  0.977
+step 3600 training  0.94 test  0.9782
+step 3700 training  0.98 test  0.9766
+step 3800 training  1 test  0.9784
+step 3900 training  0.94 test  0.9798
+step 4000 training  0.98 test  0.9786
+step 4100 training  1 test  0.981
+step 4200 training  1 test  0.9804
+step 4300 training  1 test  0.9805
+step 4400 training  0.96 test  0.9804
+step 4500 training  0.98 test  0.9796
+step 4600 training  0.98 test  0.9811
+step 4700 training  0.96 test  0.9796
+step 4800 training  0.98 test  0.9807
+step 4900 training  0.96 test  0.9814
+step 5000 training  0.98 test  0.9828
+step 5100 training  0.96 test  0.9823
+step 5200 training  0.98 test  0.9833
+step 5300 training  0.98 test  0.9805
+step 5400 training  0.98 test  0.9841
+step 5500 training  1 test  0.9831
+step 5600 training  1 test  0.9832
+step 5700 training  1 test  0.9823
+step 5800 training  0.96 test  0.981
+step 5900 training  0.98 test  0.9813
+step 6000 training  1 test  0.9847
+step 6100 training  1 test  0.9841
+step 6200 training  0.96 test  0.9848
+step 6300 training  1 test  0.9847
+step 6400 training  0.98 test  0.9828
+step 6500 training  0.96 test  0.9851
+step 6600 training  0.98 test  0.9853
+step 6700 training  1 test  0.9847
+step 6800 training  0.98 test  0.9842
+step 6900 training  0.96 test  0.9845
+step 7000 training  0.98 test  0.9838
+step 7100 training  1 test  0.9852
+step 7200 training  1 test  0.9864
+step 7300 training  1 test  0.9841
+step 7400 training  0.98 test  0.9859
+step 7500 training  1 test  0.986
+step 7600 training  1 test  0.9869
+step 7700 training  1 test  0.987
+step 7800 training  1 test  0.9851
+step 7900 training  0.98 test  0.9864
+step 8000 training  1 test  0.9864
+step 8100 training  0.98 test  0.9854
+step 8200 training  1 test  0.9853
+step 8300 training  1 test  0.9861
+step 8400 training  0.96 test  0.9865
+step 8500 training  1 test  0.9842
+step 8600 training  1 test  0.9864
+step 8700 training  1 test  0.9875
+step 8800 training  1 test  0.9875
+step 8900 training  1 test  0.9878
+step 9000 training  1 test  0.9883
+step 9100 training  0.98 test  0.9874
+step 9200 training  1 test  0.9877
+step 9300 training  1 test  0.9869
+step 9400 training  0.96 test  0.9875
+step 9500 training  1 test  0.9867
+step 9600 training  1 test  0.9872
+step 9700 training  0.98 test  0.9874
+step 9800 training  1 test  0.9881
+step 9900 training  1 test  0.9877
+step 10000 training  1 test  0.9876
+step 10100 training  0.98 test  0.985
+step 10200 training  0.98 test  0.9889
+step 10300 training  0.98 test  0.9882
+step 10400 training  0.98 test  0.9892
+step 10500 training  0.98 test  0.9885
+step 10600 training  1 test  0.9881
+step 10700 training  1 test  0.9869
+step 10800 training  1 test  0.989
+step 10900 training  1 test  0.9887
+step 11000 training  1 test  0.9886
+step 11100 training  1 test  0.9891
+step 11200 training  1 test  0.9883
+step 11300 training  1 test  0.9891
+step 11400 training  1 test  0.9885
+step 11500 training  1 test  0.9894
+step 11600 training  0.98 test  0.9875
+step 11700 training  1 test  0.9887
+step 11800 training  1 test  0.9878
+step 11900 training  1 test  0.9876
+step 12000 training  1 test  0.9877
+step 12100 training  1 test  0.9876
+step 12200 training  1 test  0.9895
+step 12300 training  1 test  0.9898
+step 12400 training  1 test  0.9888
+step 12500 training  0.98 test  0.9895
+step 12600 training  1 test  0.9889
+step 12700 training  1 test  0.988
+step 12800 training  1 test  0.9899
+step 12900 training  1 test  0.9895
+step 13000 training  1 test  0.9889
+step 13100 training  1 test  0.9887
+step 13200 training  1 test  0.988
+step 13300 training  1 test  0.9902
+step 13400 training  1 test  0.9897
+step 13500 training  1 test  0.9892
+step 13600 training  1 test  0.9898
+step 13700 training  1 test  0.9896
+step 13800 training  0.98 test  0.989
+step 13900 training  0.98 test  0.989
+step 14000 training  1 test  0.9877
+step 14100 training  0.98 test  0.9894
+step 14200 training  1 test  0.9905
+step 14300 training  1 test  0.989
+step 14400 training  1 test  0.9904
+step 14500 training  1 test  0.9901
+step 14600 training  1 test  0.99
+step 14700 training  1 test  0.9893
+step 14800 training  1 test  0.9901
+step 14900 training  1 test  0.9906
+step 15000 training  0.98 test  0.99
+step 15100 training  0.96 test  0.9894
+step 15200 training  1 test  0.9896
+step 15300 training  0.98 test  0.9894
+step 15400 training  1 test  0.9905
+step 15500 training  1 test  0.991
+step 15600 training  1 test  0.9904
+step 15700 training  0.98 test  0.9902
+step 15800 training  1 test  0.9895
+step 15900 training  1 test  0.9897
+step 16000 training  0.98 test  0.9902
+step 16100 training  1 test  0.9894
+step 16200 training  0.98 test  0.9887
+step 16300 training  0.98 test  0.9896
+step 16400 training  1 test  0.9909
+step 16500 training  1 test  0.9901
+step 16600 training  1 test  0.9901
+step 16700 training  1 test  0.9903
+step 16800 training  1 test  0.9904
+step 16900 training  1 test  0.9901
+step 17000 training  1 test  0.9903
+step 17100 training  0.98 test  0.9902
+step 17200 training  1 test  0.9901
+step 17300 training  1 test  0.992
+step 17400 training  1 test  0.9897
+step 17500 training  1 test  0.9917
+step 17600 training  1 test  0.991
+step 17700 training  1 test  0.9905
+step 17800 training  1 test  0.991
+step 17900 training  1 test  0.9906
+step 18000 training  1 test  0.991
+step 18100 training  1 test  0.9903
+step 18200 training  1 test  0.991
+step 18300 training  1 test  0.9915
+step 18400 training  0.98 test  0.9912
+step 18500 training  1 test  0.9906
+step 18600 training  1 test  0.9899
+step 18700 training  1 test  0.9908
+step 18800 training  1 test  0.9905
