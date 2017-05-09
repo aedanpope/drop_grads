@@ -14,15 +14,15 @@ Given some gradients computed by backpropagation, applying those gradients to th
 
 Setup is the standard MNIST problem with typical high-performance CNN from the [TensorFlow tutorial](https://www.tensorflow.org/get_started/mnist/pros). Typically this achieves an accuracy of around 99.2% accuracy on MNIST.
 
-Modified backpro Algorithm:
+Modified backprop Algorithm:
 1. Feed a batch of 50 images to the network, and run backprop to compute gradients.
-2. For each variable in the network (e.g. one variable being the weights or biases for some layer in the network), with `(1-keep_prob)`, we zero the gradient for that variable.
-3. Apply the gradients (some of which are zeor) to train the network.
+2. For each variable in the network (e.g. one variable being the weights or biases for some layer in the network), with `(1-keep_prob)`, zero the gradient for that variable.
+3. Apply the gradients (some of which are now zero) with a training algorithm to train the network (Adam in this case).
 
 ## Results
 
-After 20k batches, keeping 50%+ of the variable-gradients achieves the near optimal performance of 99.2% accuracy, whilst only keeping 20% of gradients has only achieved an accuracy of about 89.9%.
+After 20k batches, keeping 50%+ of the variable-gradients achieves near the optimal performance of 99.2% accuracy, whilst only keeping 20% of gradients achieves an accuracy of about 89.9%.
 ![Graph of results](results_raw.png)
 
-Consider that if only 50% of the computed variable-gradients are applied, then in effect for a given number of batches the network has received half as much training. Intuitively, we'd expect `keep_prob=0.5` to take around twice as long to train as `keep_prob=1.0`. "pro-rating" the number of batches by multiplying by keep_prob encodes this, and in the below graph we can see that `keep_prob=0.5` is able to train a little bit faster than twice-as-long as `keep_prob=1.0`.
+Consider that if only 50% of the computed variable-gradients are applied, then in effect for a given number of batches the network has received half as much training. Intuitively, we'd expect `keep_prob=0.5` to take around twice as long to train as `keep_prob=1.0`. "pro-rating" the number of batches by multiplying by keep_prob encodes this. The below figure shows that `keep_prob=0.5` is able to train a little bit faster than twice-as-long as `keep_prob=1.0`, and achieve equivalent optimal performance to the unmodified algorithm in the long run.
 ![Graph of results prorated](results_prorated.png)
