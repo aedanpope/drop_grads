@@ -73,7 +73,7 @@ def main(_):
   args = parser.parse_args()
 
   drop_grads_prob = args.drop_grads_prob
-  print("drop_grads_prob = %d"%drop_grads_prob)
+  print("drop_grads_prob = %f"%drop_grads_prob)
 
   global out_file
   out_file = open(args.out_file, 'a')
