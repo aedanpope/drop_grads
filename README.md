@@ -1,4 +1,4 @@
-# Effective learning while misplacing gradient updates.
+# Effective learning while losing gradient updates.
 
 ## Overview
 
